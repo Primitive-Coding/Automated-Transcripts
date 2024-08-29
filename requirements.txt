@@ -1,0 +1,9 @@
+librosa
+pandas
+pytubefix
+pydub
+scikit-learn
+scipy
+SpeechRecognition
+torch
+transformers

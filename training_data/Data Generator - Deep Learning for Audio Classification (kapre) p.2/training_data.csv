@@ -1,0 +1,440 @@
+,start,end,file,text
+0,00:00:03.760,00:00:05.315,chunk1.wav,[Music]
+1,00:00:07.360,00:00:09.414,chunk2.wav,alright guys so welcome to the second
+2,00:00:09.220,00:00:12.009,chunk3.wav,video this video we're gonna be going
+3,00:00:11.469,00:00:14.334,chunk4.wav,over everything on how to load our audio
+4,00:00:14.799,00:00:17.439,chunk5.wav,data and prepare it for training to be
+5,00:00:17.200,00:00:19.795,chunk6.wav,batched into our neural networks so
+6,00:00:20.080,00:00:22.480,chunk7.wav,we're gonna be going over file structure
+7,00:00:22.390,00:00:24.879,chunk8.wav,we'll take a little bit of a look of how
+8,00:00:24.880,00:00:27.145,chunk9.wav,Capri works and then most importantly
+9,00:00:27.369,00:00:30.309,chunk10.wav,we're gonna go over how to build a data
+10,00:00:29.410,00:00:32.290,chunk11.wav,generator in tensorflow 2.0 and making
+11,00:00:33.250,00:00:35.259,chunk12.wav,sure that you kind of understand the
+12,00:00:35.170,00:00:37.105,chunk13.wav,ends of outs of that and we'll run a
+13,00:00:37.269,00:00:39.249,chunk14.wav,little bit of code and talk about all
+14,00:00:39.040,00:00:41.259,chunk15.wav,these different things so in this first
+15,00:00:41.229,00:00:43.929,chunk16.wav,slide we're gonna have a directory
+16,00:00:43.479,00:00:45.924,chunk17.wav,that's called WAV files and within here
+17,00:00:46.629,00:00:49.014,chunk18.wav,we'll be putting all of our audio data
+18,00:00:48.370,00:00:50.964,chunk19.wav,so the directory wav files each of these
+19,00:00:51.400,00:00:53.154,chunk20.wav,will have a directory and these
+20,00:00:53.559,00:00:55.164,chunk21.wav,directories will be the different
+21,00:00:54.909,00:00:57.374,chunk22.wav,classes that you're trying to classify
+22,00:00:56.769,00:00:59.714,chunk23.wav,so there's going to be ten classes
+23,00:00:59.840,00:01:02.355,chunk24.wav,and if you wanted to swap out your data
+24,00:01:02.660,00:01:04.985,chunk25.wav,you would just delete these directories
+25,00:01:04.870,00:01:07.105,chunk26.wav,make new ones for the classes that you
+26,00:01:07.310,00:01:09.665,chunk27.wav,want to use and drop your files in there
+27,00:01:09.340,00:01:12.360,chunk28.wav,the files are gonna be dropping I would
+28,00:01:12.020,00:01:14.915,chunk29.wav,really recommend to use WAV files as
+29,00:01:15.380,00:01:18.230,chunk30.wav,these are uncompressed audio and they
+30,00:01:17.810,00:01:21.110,chunk31.wav,can be loaded into Ram like extremely
+31,00:01:21.080,00:01:23.435,chunk32.wav,quickly if this was like an mp3 there's
+32,00:01:24.410,00:01:25.940,chunk33.wav,probably a world where you could write a
+33,00:01:25.790,00:01:28.115,chunk34.wav,bunch of multi-threaded code that's
+34,00:01:27.470,00:01:30.050,chunk35.wav,gonna like be able to dedicate all the
+35,00:01:30.440,00:01:32.690,chunk36.wav,processing required to uncompress those
+36,00:01:32.630,00:01:35.105,chunk37.wav,like in a reasonably fast time but I
+37,00:01:34.940,00:01:37.385,chunk38.wav,really don't recommend it obviously like
+38,00:01:37.580,00:01:39.260,chunk39.wav,the downside of using WAV files is that
+39,00:01:39.830,00:01:41.930,chunk40.wav,they're uncompressed and they're gonna
+40,00:01:40.940,00:01:44.075,chunk41.wav,take a lot of disk space up but this is
+41,00:01:44.030,00:01:47.015,chunk42.wav,how I'd recommend it and from the
+42,00:01:47.210,00:01:49.715,chunk43.wav,previous slide we talked about using you
+43,00:01:50.000,00:01:52.535,chunk44.wav,know these are two to the 16 16-bit
+44,00:01:52.220,00:01:55.879,chunk45.wav,audio so the data type is gonna be numpy
+45,00:01:55.070,00:01:58.219,chunk46.wav,in sixteen and that's the range so one
+46,00:01:59.539,00:02:01.594,chunk47.wav,issue that comes up when we talk about
+47,00:02:01.369,00:02:03.844,chunk48.wav,audio classification and especially with
+48,00:02:03.649,00:02:06.274,chunk49.wav,this data set you see it a lot you'll
+49,00:02:06.319,00:02:08.884,chunk50.wav,see a lot of audio like I think this is
+50,00:02:08.899,00:02:11.824,chunk51.wav,actually a guitar and then eventually
+51,00:02:11.450,00:02:14.090,chunk52.wav,the magnitude becomes so low that we'll
+52,00:02:14.750,00:02:16.625,chunk53.wav,have a scenario where a lot of the
+53,00:02:16.730,00:02:18.830,chunk54.wav,signals will look the same just because
+54,00:02:18.500,00:02:21.260,chunk55.wav,there's a lot of dead space in the audio
+55,00:02:20.930,00:02:23.405,chunk56.wav,but one way that we can remove dead
+56,00:02:24.020,00:02:26.015,chunk57.wav,space and audio is constructing
+57,00:02:25.880,00:02:28.145,chunk58.wav,something called a signal envelope and
+58,00:02:28.010,00:02:30.515,chunk59.wav,the signal envelope is kind of meant to
+59,00:02:30.410,00:02:33.485,chunk60.wav,just track the signal and see how it
+60,00:02:33.020,00:02:35.985,chunk61.wav,changes but don't don't see how it
+61,00:02:36.560,00:02:39.485,chunk62.wav,changes like instantaneously because
+62,00:02:38.950,00:02:42.719,chunk63.wav,this signal is rapidly crossing the
+63,00:02:42.410,00:02:45.934,chunk64.wav,x-axis so if you just said hey take take
+64,00:02:46.489,00:02:48.649,chunk65.wav,out all the points that are below my
+65,00:02:49.459,00:02:51.139,chunk66.wav,threshold which is going to be a hundred
+66,00:02:50.810,00:02:52.730,chunk67.wav,here so if it's below hundred just
+67,00:02:52.819,00:02:54.574,chunk68.wav,remove it and what would happen would be
+68,00:02:54.650,00:02:56.450,chunk69.wav,that you destroy the signal completely
+69,00:02:56.330,00:02:58.805,chunk70.wav,because there's gonna be a lot of points
+70,00:02:58.250,00:03:00.935,chunk71.wav,taken out here here here here here it
+71,00:03:01.280,00:03:03.290,chunk72.wav,shouldn't have been taken out so the way
+72,00:03:03.620,00:03:06.020,chunk73.wav,we can think about this is we can take
+73,00:03:05.300,00:03:07.684,chunk74.wav,the absolute value of our signal so now
+74,00:03:08.420,00:03:10.720,chunk75.wav,we're just getting the positive portion
+75,00:03:10.069,00:03:12.609,chunk76.wav,and we can use a rolling window
+76,00:03:13.020,00:03:15.735,chunk77.wav,the easiest way that I found to do this
+77,00:03:15.150,00:03:18.075,chunk78.wav,is in pandas you can so let's like let's
+78,00:03:18.450,00:03:21.255,chunk79.wav,say the signal is y we can convert this
+79,00:03:21.000,00:03:23.610,chunk80.wav,signal into a series apply the absolute
+80,00:03:24.060,00:03:26.460,chunk81.wav,value and then just call this dot
+81,00:03:26.220,00:03:28.185,chunk82.wav,rolling method with a certain window
+82,00:03:28.860,00:03:30.425,chunk83.wav,length it you can play around with this
+83,00:03:30.150,00:03:32.240,chunk84.wav,window length
+84,00:03:31.990,00:03:35.560,chunk85.wav,but this rolling window is based off of
+85,00:03:34.330,00:03:37.705,chunk86.wav,the max so we take the max as the
+86,00:03:39.130,00:03:42.085,chunk87.wav,rolling window goes across a signal and
+87,00:03:41.080,00:03:44.065,chunk88.wav,what you get is this you get a signal
+88,00:03:45.040,00:03:47.905,chunk89.wav,envelope you can play around with these
+89,00:03:47.050,00:03:49.885,chunk90.wav,numbers yourself but if that the value
+90,00:03:50.770,00:03:53.020,chunk91.wav,of the envelope falls below our
+91,00:03:52.720,00:03:55.015,chunk92.wav,threshold then we remove it and so this
+92,00:03:55.270,00:03:58.195,chunk93.wav,allows us to remove we be removing all
+93,00:03:57.310,00:03:59.875,chunk94.wav,of this dead portion of the signal and
+94,00:04:01.120,00:04:03.295,chunk95.wav,I'll show you guys that when we actually
+95,00:04:02.440,00:04:04.720,chunk96.wav,go to run the code all right so now
+96,00:04:05.470,00:04:08.155,chunk97.wav,let's talk a little about Capri
+97,00:04:07.000,00:04:10.510,chunk98.wav,so Capri was made by this guy I don't
+98,00:04:10.840,00:04:13.060,chunk99.wav,know how to pronounce his name but he
+99,00:04:14.020,00:04:16.315,chunk100.wav,made it a couple years ago when he was
+100,00:04:15.280,00:04:19.060,chunk101.wav,doing his PhD and I think now he works
+101,00:04:18.610,00:04:22.285,chunk102.wav,at Spotify in New York City but he still
+102,00:04:22.840,00:04:25.765,chunk103.wav,maintains library and he also wrote a
+103,00:04:25.960,00:04:28.255,chunk104.wav,short publication about it and it
+104,00:04:28.690,00:04:30.640,chunk105.wav,basically says like hey I've got a five
+105,00:04:30.550,00:04:32.545,chunk106.wav,layer confident let's compare the
+106,00:04:32.590,00:04:34.885,chunk107.wav,processing times where we compute a
+107,00:04:34.540,00:04:37.480,chunk108.wav,spectrogram in addition to that
+108,00:04:37.180,00:04:40.345,chunk109.wav,confident and we'll do it on the GPU and
+109,00:04:40.420,00:04:43.345,chunk110.wav,you notice that EES processing times
+110,00:04:43.510,00:04:46.960,chunk111.wav,only they increase marginally is not
+111,00:04:46.270,00:04:49.600,chunk112.wav,really much right and so it opens you up
+112,00:04:50.410,00:04:52.720,chunk113.wav,to this concept of just computing a lot
+113,00:04:52.930,00:04:55.555,chunk114.wav,of these frequency transforms on the fly
+114,00:04:55.030,00:04:57.775,chunk115.wav,on the GPU and the nice part about it is
+115,00:04:58.180,00:05:00.160,chunk116.wav,it can be implemented as just a single
+116,00:05:00.520,00:05:02.560,chunk117.wav,layer that you can add to your chaos
+117,00:05:02.140,00:05:05.155,chunk118.wav,model it was very simple like you don't
+118,00:05:04.600,00:05:07.375,chunk119.wav,have to go I mean penser flow signal has
+119,00:05:08.170,00:05:09.595,chunk120.wav,all the functionality within it but
+120,00:05:10.150,00:05:11.530,chunk121.wav,you'd have to write your own custom
+121,00:05:11.020,00:05:13.255,chunk122.wav,layer and caris and that's what he's
+122,00:05:12.910,00:05:16.015,chunk123.wav,done here and it's it's very beneficial
+123,00:05:15.490,00:05:19.249,chunk124.wav,so if you don't do this you'd have to
+124,00:05:19.120,00:05:22.055,chunk125.wav,compute the spectrogram offline
+125,00:05:23.009,00:05:24.869,chunk126.wav,and then you'd have to store and make up
+126,00:05:24.990,00:05:27.255,chunk127.wav,a whole bunch of disk space for that and
+127,00:05:26.729,00:05:29.654,chunk128.wav,then you could train on it and if you
+128,00:05:29.520,00:05:32.084,chunk129.wav,don't do that then you like if you
+129,00:05:32.580,00:05:35.639,chunk130.wav,wanted to change a parameter maybe you
+130,00:05:34.649,00:05:37.289,chunk131.wav,want to change and DFT well guess what
+131,00:05:38.699,00:05:39.959,chunk132.wav,you're gonna have to go back and you're
+132,00:05:39.930,00:05:41.895,chunk133.wav,gonna have to compute all that offline
+133,00:05:41.219,00:05:43.439,chunk134.wav,again and then retrain and depending if
+134,00:05:43.860,00:05:47.220,chunk135.wav,your data is really big it's just gonna
+135,00:05:45.659,00:05:48.899,chunk136.wav,be not friendly for iteration so that's
+136,00:05:50.580,00:05:52.499,chunk137.wav,why I typically when I write things I
+137,00:05:52.139,00:05:54.584,chunk138.wav,prefer to use Capri and I think it does
+138,00:05:54.419,00:05:57.164,chunk139.wav,a good job so another interesting thing
+139,00:05:57.029,00:05:59.894,chunk140.wav,is that the channels are first here not
+140,00:05:59.909,00:06:03.404,chunk141.wav,last so we're using mono signals so it's
+141,00:06:02.759,00:06:05.699,chunk142.wav,gonna be one in the front here and yeah
+142,00:06:06.899,00:06:08.729,chunk143.wav,you can play around there's a lot of
+143,00:06:08.639,00:06:10.904,chunk144.wav,different things you can tune and we'll
+144,00:06:10.559,00:06:13.109,chunk145.wav,kind of go into this in the next video
+145,00:06:13.169,00:06:15.719,chunk146.wav,where we talk about modeling but there's
+146,00:06:15.659,00:06:17.969,chunk147.wav,also a normalization layer that he
+147,00:06:18.270,00:06:19.919,chunk148.wav,provides and I don't know we'll talk
+148,00:06:20.279,00:06:22.079,chunk149.wav,about in the next video so don't worry
+149,00:06:21.569,00:06:23.684,chunk150.wav,about that for now so this slide is
+150,00:06:23.879,00:06:25.949,chunk151.wav,probably the most important because
+151,00:06:25.800,00:06:28.199,chunk152.wav,we'll be talking about building a data
+152,00:06:28.020,00:06:30.554,chunk153.wav,generator so 90% of the time when you
+153,00:06:30.599,00:06:33.164,chunk154.wav,guys write machine learning code you
+154,00:06:33.089,00:06:36.149,chunk155.wav,want to batch that data on the fly as
+155,00:06:35.729,00:06:38.849,chunk156.wav,opposed to holding all the variables and
+156,00:06:39.209,00:06:42.014,chunk157.wav,RAM and then serving up to the model we
+157,00:06:41.969,00:06:44.504,chunk158.wav,would just like to give me like 16
+158,00:06:44.819,00:06:47.054,chunk159.wav,samples compute gradient descent and
+159,00:06:47.039,00:06:49.064,chunk160.wav,then keep going until we reach the
+160,00:06:49.289,00:06:51.314,chunk161.wav,entire epoch
+161,00:06:51.090,00:06:53.190,chunk162.wav,and so the way it's kind of recommended
+162,00:06:53.340,00:06:55.530,chunk163.wav,for tensorflow to build this at least
+163,00:06:55.290,00:06:57.660,chunk164.wav,from from Chaos's perspective is we will
+164,00:06:57.720,00:07:00.510,chunk165.wav,inherit from the sequence class which is
+165,00:07:00.030,00:07:02.754,chunk166.wav,basically a class that can batch data
+166,00:07:03.300,00:07:05.520,chunk167.wav,and then it locks it out with its like
+167,00:07:05.479,00:07:07.509,chunk168.wav,yeah I mean it locks it out with a lock
+168,00:07:07.740,00:07:10.305,chunk169.wav,and then it lets you train with multiple
+169,00:07:09.540,00:07:12.225,chunk170.wav,GPUs so it's it's a safer way to batch
+170,00:07:12.870,00:07:15.340,chunk171.wav,your data for multi processing if you
+171,00:07:14.910,00:07:17.460,chunk172.wav,wanted to do multi process training so
+172,00:07:17.810,00:07:20.515,chunk173.wav,there's three methods that we need to
+173,00:07:20.010,00:07:23.235,chunk174.wav,implement their length getitem and on
+174,00:07:23.220,00:07:26.190,chunk175.wav,epoch n so length is very simply the
+175,00:07:26.460,00:07:28.799,chunk176.wav,number of batches per epoch so you'll
+176,00:07:29.160,00:07:31.230,chunk177.wav,have your total number of samples and
+177,00:07:31.139,00:07:34.454,chunk178.wav,you're gonna divide by your batch size
+178,00:07:33.300,00:07:36.975,chunk179.wav,which could be 16 32 64 you can change
+179,00:07:37.770,00:07:40.935,chunk180.wav,this however you see fit and then we'll
+180,00:07:40.650,00:07:43.605,chunk181.wav,have a get item method so I would really
+181,00:07:44.100,00:07:46.125,chunk182.wav,recommend that you actually check out
+182,00:07:46.560,00:07:48.614,chunk183.wav,the documentation for this sequence
+183,00:07:48.150,00:07:50.790,chunk184.wav,class and read it because you'll find
+184,00:07:50.669,00:07:53.084,chunk185.wav,that sequence actually implements a
+185,00:07:53.430,00:07:55.859,chunk186.wav,knitter method and the inter method is
+186,00:07:55.500,00:07:58.725,chunk187.wav,what will actually yield this batch to
+187,00:07:58.289,00:08:01.214,chunk188.wav,the GPU um you could go read it and so
+188,00:08:01.950,00:08:04.515,chunk189.wav,but in order to yield that and needs to
+189,00:08:04.139,00:08:06.554,chunk190.wav,call your get item method so your get
+190,00:08:07.080,00:08:09.270,chunk191.wav,Ida method is going to return two things
+191,00:08:08.970,00:08:11.730,chunk192.wav,going to be your X matrix and your Y
+192,00:08:11.460,00:08:14.580,chunk193.wav,matrix though your X matrix will be your
+193,00:08:14.490,00:08:17.145,chunk194.wav,audio data in a time series because this
+194,00:08:17.700,00:08:20.430,chunk195.wav,is gonna again remember like we're
+195,00:08:19.800,00:08:22.350,chunk196.wav,inputting into I can show you guys here
+196,00:08:23.160,00:08:25.079,chunk197.wav,we're inputting into this mel
+197,00:08:24.900,00:08:27.434,chunk198.wav,spectrogram
+198,00:08:26.999,00:08:29.969,chunk199.wav,and so this expects you know one channel
+199,00:08:29.969,00:08:33.204,chunk200.wav,and then 1600 data points for one second
+200,00:08:32.939,00:08:36.299,chunk201.wav,of data of audio time series data right
+201,00:08:36.439,00:08:39.204,chunk202.wav,so when we do that batch size will
+202,00:08:39.659,00:08:42.974,chunk203.wav,always be like our zero at dimension and
+203,00:08:41.969,00:08:46.409,chunk204.wav,again remember our input was 1 by 1600
+204,00:08:46.290,00:08:50.054,chunk205.wav,so in this case it's gonna be our sample
+205,00:08:50.850,00:08:53.355,chunk206.wav,rate which is gonna be and I actually
+206,00:08:53.819,00:08:56.174,chunk207.wav,down sample so like we've been talking a
+207,00:08:55.860,00:08:58.589,chunk208.wav,lot about sample rate I I down sample to
+208,00:08:58.529,00:09:01.224,chunk209.wav,16 kilohertz because a lot of the time
+209,00:09:01.319,00:09:04.109,chunk210.wav,you do not care about I frequency
+210,00:09:03.920,00:09:07.105,chunk211.wav,components within a signal so your
+211,00:09:06.899,00:09:10.679,chunk212.wav,sample rate would be 1600 and your Delta
+212,00:09:10.290,00:09:14.265,chunk213.wav,time would be I made it one second so
+213,00:09:14.459,00:09:17.594,chunk214.wav,you can change this but I used a delta
+214,00:09:18.240,00:09:20.504,chunk215.wav,time of one second and that goes back to
+215,00:09:20.730,00:09:22.904,chunk216.wav,the other video where we talked about
+216,00:09:22.769,00:09:24.974,chunk217.wav,you know we're gonna have one second of
+217,00:09:25.079,00:09:27.794,chunk218.wav,data so we're gonna have a hundred time
+218,00:09:27.180,00:09:30.045,chunk219.wav,sets or our actual X matrix would be
+219,00:09:30.509,00:09:33.659,chunk220.wav,let's say I have a batch size of 16
+220,00:09:32.910,00:09:36.550,chunk221.wav,that's going to be 16 by 1 by 1600
+221,00:09:36.809,00:09:39.549,chunk222.wav,because Delta x could be one second
+222,00:09:40.190,00:09:42.680,chunk223.wav,and then we have our output so because
+223,00:09:42.290,00:09:44.900,chunk224.wav,we're doing classification in fact
+224,00:09:45.170,00:09:48.320,chunk225.wav,there's gonna be you know more than one
+225,00:09:47.510,00:09:51.125,chunk226.wav,class to classify so the output is gonna
+226,00:09:51.470,00:09:54.080,chunk227.wav,be a soft max layer and within a soft
+227,00:09:54.740,00:09:56.750,chunk228.wav,max layer that matrix is gonna be out to
+228,00:09:56.690,00:09:58.505,chunk229.wav,be what's called hot encoded so if you
+229,00:09:58.760,00:10:00.755,chunk230.wav,don't know what a hot encoded matrix is
+230,00:10:00.320,00:10:02.435,chunk231.wav,just go Google that there's some really
+231,00:10:02.750,00:10:05.045,chunk232.wav,good results on Google Images that will
+232,00:10:04.550,00:10:07.070,chunk233.wav,kind of make it really obvious and it'll
+233,00:10:07.340,00:10:09.885,chunk234.wav,be shaped of like batch size by n
+234,00:10:09.590,00:10:13.485,chunk235.wav,classes which will be ten in our case
+235,00:10:12.430,00:10:16.515,chunk236.wav,and also remember like numpy in sixteen
+236,00:10:17.380,00:10:20.370,chunk237.wav,and this is time series data this will
+237,00:10:20.600,00:10:22.940,chunk238.wav,get converted to float 32 internally and
+238,00:10:23.360,00:10:25.370,chunk239.wav,so our output is actually gonna be a
+239,00:10:25.280,00:10:27.320,chunk240.wav,floating-point number where you know
+240,00:10:27.380,00:10:29.300,chunk241.wav,we're trying to predict a1 but
+241,00:10:29.360,00:10:31.460,chunk242.wav,realistically you might get something
+242,00:10:31.220,00:10:33.605,chunk243.wav,like 0.8 or something it's a floating
+243,00:10:33.560,00:10:36.425,chunk244.wav,point and then the last method will be
+244,00:10:35.990,00:10:38.750,chunk245.wav,on epoch n if you want to do any kind of
+245,00:10:39.290,00:10:41.180,chunk246.wav,data augmentation the only thing we're
+246,00:10:41.510,00:10:43.595,chunk247.wav,going to be using this for is to shuffle
+247,00:10:43.070,00:10:45.305,chunk248.wav,the data in between epochs so we get a
+248,00:10:45.680,00:10:48.920,chunk249.wav,different distribution for the next
+249,00:10:47.540,00:10:50.810,chunk250.wav,batch and yeah that's about it so yeah
+250,00:10:52.160,00:10:53.930,chunk251.wav,well we'll talk about we'll head over to
+251,00:10:54.080,00:10:56.090,chunk252.wav,the code now we'll kind of talk about
+252,00:10:55.700,00:10:57.945,chunk253.wav,running and implementing a lot of the
+253,00:10:58.100,00:11:00.090,chunk254.wav,stuff that we just talked about
+254,00:11:00.190,00:11:02.005,chunk255.wav,all right so let's head over to github
+255,00:11:02.080,00:11:04.735,chunk256.wav,and we can actually start running some
+256,00:11:03.820,00:11:06.685,chunk257.wav,of this code so feel free to clone this
+257,00:11:07.390,00:11:09.610,chunk258.wav,and I'm gonna assume you guys have
+258,00:11:09.550,00:11:11.545,chunk259.wav,anaconda installed and you know how to
+259,00:11:11.830,00:11:14.260,chunk260.wav,set up your environment but there is
+260,00:11:13.540,00:11:15.685,chunk261.wav,some setup instructions here that should
+261,00:11:16.690,00:11:17.995,chunk262.wav,be helpful
+262,00:11:17.830,00:11:19.750,chunk263.wav,the main dependencies are like
+263,00:11:19.300,00:11:22.225,chunk264.wav,tensorflow 2.0 Capri
+264,00:11:21.670,00:11:24.025,chunk265.wav,libero so that should be most of it but
+265,00:11:25.150,00:11:27.070,chunk266.wav,the easiest thing would just be to
+266,00:11:26.380,00:11:29.140,chunk267.wav,install from the requirements top PI and
+267,00:11:28.990,00:11:31.735,chunk268.wav,actually let's look at clean dot PI
+268,00:11:31.900,00:11:34.345,chunk269.wav,first so there you go all the way to the
+269,00:11:34.480,00:11:36.925,chunk270.wav,bottom at the argument parser will have
+270,00:11:36.790,00:11:39.520,chunk271.wav,this wav files directory and this is
+271,00:11:39.370,00:11:41.680,chunk272.wav,where we'll put all of our audio data if
+272,00:11:42.250,00:11:44.575,chunk273.wav,you want to use your own data this is
+273,00:11:43.990,00:11:46.540,chunk274.wav,where you would replace it and we're
+274,00:11:46.900,00:11:49.070,chunk275.wav,gonna go to a destination root and so
+275,00:11:49.090,00:11:52.105,chunk276.wav,the whole point of cleaning up PI is to
+276,00:11:51.240,00:11:54.380,chunk277.wav,down sample the audio and remove any of
+277,00:11:55.120,00:11:57.505,chunk278.wav,any dead space in the audio with the
+278,00:11:57.520,00:11:59.440,chunk279.wav,threshold detection I'm using the signal
+279,00:11:59.890,00:12:02.215,chunk280.wav,envelope that we talked about on the
+280,00:12:01.360,00:12:04.420,chunk281.wav,slide so everything's gonna rebuild at
+281,00:12:04.540,00:12:07.045,chunk282.wav,this Delta time duration that you can
+282,00:12:07.480,00:12:10.120,chunk283.wav,set here and right now it's set for one
+283,00:12:09.550,00:12:12.745,chunk284.wav,second and the sample rate so right now
+284,00:12:12.760,00:12:15.355,chunk285.wav,it's like forty four point one K I want
+285,00:12:15.940,00:12:17.930,chunk286.wav,to down sample that to 16 K so that's
+286,00:12:17.950,00:12:20.095,chunk287.wav,how you set the sample rate here and
+287,00:12:19.920,00:12:22.250,chunk288.wav,there's two so there's two functions of
+288,00:12:22.240,00:12:24.535,chunk289.wav,how this code works you can either test
+289,00:12:24.580,00:12:27.295,chunk290.wav,a threshold or you can split your wav
+290,00:12:26.830,00:12:29.890,chunk291.wav,files and you'll split all the files
+291,00:12:30.010,00:12:32.410,chunk292.wav,within wav files so the first thing you
+292,00:12:32.950,00:12:35.200,chunk293.wav,want to do is figure out a threshold
+293,00:12:34.810,00:12:37.330,chunk294.wav,that will work for you so you can see
+294,00:12:37.450,00:12:39.805,chunk295.wav,it's not commented out and you can put
+295,00:12:39.850,00:12:41.770,chunk296.wav,the base so this is going to be the
+296,00:12:42.160,00:12:44.110,chunk297.wav,substring that we're going to look for
+297,00:12:43.690,00:12:45.985,chunk298.wav,within wav files so it's gonna go
+298,00:12:46.060,00:12:47.845,chunk299.wav,through all these find the wav file that
+299,00:12:48.280,00:12:50.470,chunk300.wav,you want to use for a threshold
+300,00:12:49.630,00:12:52.405,chunk301.wav,detection and you can preview that so
+301,00:12:52.660,00:12:55.180,chunk302.wav,and you can set the threshold again
+302,00:12:55.180,00:12:57.190,chunk303.wav,remember we're using numpy in 16 if
+303,00:12:57.700,00:12:59.019,chunk304.wav,you're using a different datatype and
+304,00:12:59.200,00:13:02.330,chunk305.wav,you might want to change this
+305,00:13:00.339,00:13:04.279,chunk306.wav,accordingly so now I called my
+306,00:13:05.460,00:13:09.600,chunk307.wav,environment audio
+307,00:13:08.220,00:13:12.075,chunk308.wav,I'm gonna run cleaned up hi and there's
+308,00:13:13.740,00:13:16.140,chunk309.wav,our signal envelope for that specific
+309,00:13:15.930,00:13:18.495,chunk310.wav,wav file I think this is the exact same
+310,00:13:18.540,00:13:20.805,chunk311.wav,that I used in the slides but yep you
+311,00:13:21.060,00:13:23.670,chunk312.wav,can see the signal envelope eventually
+312,00:13:23.070,00:13:25.845,chunk313.wav,once the envelope drops below the
+313,00:13:26.280,00:13:28.665,chunk314.wav,threshold of 100 then all this is red
+314,00:13:28.620,00:13:32.085,chunk315.wav,and all this will be removed when we
+315,00:13:31.050,00:13:34.830,chunk316.wav,actually go to clean the audio data so
+316,00:13:35.550,00:13:37.950,chunk317.wav,now let's go back to cleaned up hi and
+317,00:13:38.610,00:13:40.230,chunk318.wav,once you've found a threshold that works
+318,00:13:40.350,00:13:43.170,chunk319.wav,for you you can start to split your
+319,00:13:41.850,00:13:45.160,chunk320.wav,waves and so yeah you'll notice that the
+320,00:13:45.990,00:13:51.030,chunk321.wav,clean directory does not exist in here
+321,00:13:48.470,00:13:53.260,chunk322.wav,yet but let's run this and so this
+322,00:13:56.070,00:13:57.780,chunk323.wav,progress bar is for each folder that has
+323,00:13:58.050,00:14:00.435,chunk324.wav,to go through so there's going to be ten
+324,00:13:59.490,00:14:02.175,chunk325.wav,of these and if you go over here you
+325,00:14:02.820,00:14:04.935,chunk326.wav,notice that's just generating all these
+326,00:14:04.860,00:14:07.245,chunk327.wav,files and if we actually go in we'll
+327,00:14:07.050,00:14:09.165,chunk328.wav,notice that you know this is the same
+328,00:14:09.630,00:14:11.250,chunk329.wav,file but there's different so this is
+329,00:14:11.280,00:14:12.945,chunk330.wav,like the first second and this is second
+330,00:14:12.870,00:14:14.860,chunk331.wav,second so on and so forth
+331,00:14:14.610,00:14:17.235,chunk332.wav,we actually inspect these you'll see
+332,00:14:16.850,00:14:20.170,chunk333.wav,there one second and duration mono
+333,00:14:19.860,00:14:22.779,chunk334.wav,channels and the sample rate is 1600 all
+334,00:14:23.490,00:14:25.914,chunk335.wav,right
+335,00:14:25.699,00:14:27.919,chunk336.wav,so I'm gonna let this finish and I'll
+336,00:14:28.339,00:14:31.019,chunk337.wav,come back and we'll talk a little bit
+337,00:14:30.139,00:14:31.919,chunk338.wav,about the data generator
+338,00:14:34.499,00:14:36.389,chunk339.wav,so I've opened up trained up high here
+339,00:14:35.999,00:14:38.609,chunk340.wav,and we can start by kind of just
+340,00:14:38.279,00:14:40.829,chunk341.wav,explaining this data generator class so
+341,00:14:41.219,00:14:43.304,chunk342.wav,the input to the generator will be all
+342,00:14:43.379,00:14:45.284,chunk343.wav,of the wave file paths and their
+343,00:14:45.389,00:14:47.669,chunk344.wav,corresponding labels that go along with
+344,00:14:47.189,00:14:49.994,chunk345.wav,them so this is now going to be looking
+345,00:14:49.949,00:14:53.144,chunk346.wav,at the wave files that we just created
+346,00:14:52.799,00:14:55.724,chunk347.wav,within cleaned-up hive and let's take a
+347,00:14:56.339,00:14:58.819,chunk348.wav,look so at the end of the constructor we
+348,00:14:58.649,00:15:01.309,chunk349.wav,call on epoch n
+349,00:15:01.300,00:15:03.940,chunk350.wav,you go down here this will generate the
+350,00:15:03.970,00:15:06.785,chunk351.wav,indices which is basically just a bunch
+351,00:15:06.580,00:15:09.400,chunk352.wav,of numbers from zero to the number of
+352,00:15:09.600,00:15:12.290,chunk353.wav,wait paths that we have or the number of
+353,00:15:12.220,00:15:14.499,chunk354.wav,wave files we want to load and then we
+354,00:15:14.980,00:15:17.874,chunk355.wav,can shuffle so at the end of every epoch
+355,00:15:16.779,00:15:19.644,chunk356.wav,we will shuffle these indices so the way
+356,00:15:20.769,00:15:22.689,chunk357.wav,this works and if you look at the
+357,00:15:22.510,00:15:24.535,chunk358.wav,sequence class if you look at the actual
+358,00:15:24.610,00:15:27.219,chunk359.wav,documentation you would see that there
+359,00:15:26.560,00:15:31.015,chunk360.wav,is a knitter method and that passes an
+360,00:15:29.829,00:15:33.639,chunk361.wav,index to specify which index from the
+361,00:15:35.470,00:15:37.390,chunk362.wav,batch that it wants so like there's a
+362,00:15:37.450,00:15:39.700,chunk363.wav,bunch of batches the number of batches
+363,00:15:39.310,00:15:42.250,chunk364.wav,that we have in total is what will be
+364,00:15:41.950,00:15:44.514,chunk365.wav,the length of this length it is the
+365,00:15:45.190,00:15:48.294,chunk366.wav,total number of files divided by batch
+366,00:15:47.079,00:15:50.259,chunk367.wav,size right and so it er is just gonna
+367,00:15:51.399,00:15:54.054,chunk368.wav,call get item and so like hey get my
+368,00:15:53.440,00:15:55.835,chunk369.wav,data or the specific batch and my
+369,00:15:56.709,00:15:59.244,chunk370.wav,favorite way of doing this is to
+370,00:15:58.230,00:16:01.879,chunk371.wav,redefine the matrices up front because
+371,00:16:01.779,00:16:04.869,chunk372.wav,you know Python is not a typed language
+372,00:16:05.529,00:16:07.854,chunk373.wav,it's not very explicit and it's very
+373,00:16:07.959,00:16:10.014,chunk374.wav,rare that you get something where the
+374,00:16:10.180,00:16:11.920,chunk375.wav,data type is already predefined and the
+375,00:16:12.070,00:16:14.020,chunk376.wav,shape of the matrix so this is kind of
+376,00:16:13.660,00:16:16.840,chunk377.wav,my favorite way of doing it and again
+377,00:16:15.970,00:16:18.745,chunk378.wav,the shape is batch size by one for mono
+378,00:16:20.020,00:16:22.270,chunk379.wav,channels and then we have our sample
+379,00:16:21.520,00:16:23.905,chunk380.wav,rate multiplied by Delta time and our
+380,00:16:24.520,00:16:26.455,chunk381.wav,output is going to be batch sized by a
+381,00:16:26.290,00:16:28.555,chunk382.wav,number of classes because this is a hot
+382,00:16:28.390,00:16:31.435,chunk383.wav,encoded matrix and the way to create a
+383,00:16:30.820,00:16:33.850,chunk384.wav,hot encoded matrix is to an easy way to
+384,00:16:34.480,00:16:37.195,chunk385.wav,do it is from
+385,00:16:36.880,00:16:39.535,chunk386.wav,where is it tensorflow chaos utils to
+386,00:16:39.910,00:16:42.040,chunk387.wav,categorical so that's what I'm doing
+387,00:16:42.190,00:16:44.410,chunk388.wav,here I'm just taking my label encoded
+388,00:16:44.170,00:16:46.240,chunk389.wav,labels forcing into the number of
+389,00:16:46.630,00:16:48.865,chunk390.wav,classes and that'll make a hot encoding
+390,00:16:48.310,00:16:51.235,chunk391.wav,matrix and you just fill up your your
+391,00:16:51.100,00:16:53.994,chunk392.wav,wave file and your labels and so that
+392,00:16:54.160,00:16:58.339,chunk393.wav,will actually go into and run through
+393,00:16:56.889,00:17:01.849,chunk394.wav,your models let me come down here and
+394,00:17:02.519,00:17:04.664,chunk395.wav,uncomment this you guys can see
+395,00:17:11.380,00:17:15.270,chunk396.wav,and I'll just print maybe the first few
+396,00:17:16.459,00:17:18.514,chunk397.wav,entries and labels and then so when you
+397,00:17:19.160,00:17:20.960,chunk398.wav,actually go to call the the data
+398,00:17:20.570,00:17:22.700,chunk399.wav,generator you can create this object and
+399,00:17:22.760,00:17:24.859,chunk400.wav,you pass in all the stuff you need and
+400,00:17:24.830,00:17:27.230,chunk401.wav,if you actually wanted to see it you
+401,00:17:26.959,00:17:31.084,chunk402.wav,could say like for X in training
+402,00:17:29.630,00:17:33.305,chunk403.wav,generator print X let's print let's just
+403,00:17:35.210,00:17:38.375,chunk404.wav,print all of X and then we'll print X
+404,00:17:36.980,00:17:40.415,chunk405.wav,dot shape you can see that oh and also I
+405,00:17:41.540,00:17:43.875,chunk406.wav,guess it's going to be hard to see but
+406,00:17:43.850,00:17:46.250,chunk407.wav,we can also print the length of a
+407,00:17:46.210,00:17:49.360,chunk408.wav,generator
+408,00:17:48.650,00:17:50.580,chunk409.wav,so if I come over here
+409,00:17:59.070,00:18:02.670,chunk410.wav,oh it's a tupple I'd forgot well anyway
+410,00:18:02.970,00:18:05.745,chunk411.wav,we can still see so this is our labels
+411,00:18:06.270,00:18:08.265,chunk412.wav,right so this would be I mean I only
+412,00:18:08.520,00:18:10.770,chunk413.wav,show the first ten but notice that
+413,00:18:10.260,00:18:12.840,chunk414.wav,they're all integers and the length of
+414,00:18:13.020,00:18:15.795,chunk415.wav,our training generator so the actual
+415,00:18:15.420,00:18:18.705,chunk416.wav,thing is like 70 something but I do a
+416,00:18:18.570,00:18:21.675,chunk417.wav,trained test split right here so I think
+417,00:18:21.990,00:18:24.645,chunk418.wav,the remaining like 6 or 7 are within
+418,00:18:24.780,00:18:26.655,chunk419.wav,that validation generator and you can
+419,00:18:27.300,00:18:29.520,chunk420.wav,see the data so it was actually
+420,00:18:28.530,00:18:31.635,chunk421.wav,returning a tuple and I did print it so
+421,00:18:31.740,00:18:35.340,chunk422.wav,this would be your x-ray and here's your
+422,00:18:34.740,00:18:38.340,chunk423.wav,hot encoded Y matrix and of course it
+423,00:18:38.940,00:18:42.150,chunk424.wav,doesn't have a shape because doesn't
+424,00:18:41.940,00:18:44.940,chunk425.wav,have one it's a tupple but yeah that's
+425,00:18:45.360,00:18:47.940,chunk426.wav,how you would kind of start working with
+426,00:18:47.940,00:18:50.580,chunk427.wav,the training generator and that will
+427,00:18:50.520,00:18:53.295,chunk428.wav,batch all of your data until eventually
+428,00:18:53.220,00:18:55.740,chunk429.wav,the length is met and then internally it
+429,00:18:56.070,00:18:57.855,chunk430.wav,will call on epoch N and it'll shuffle
+430,00:18:58.260,00:18:59.685,chunk431.wav,everything and I'll just keep doing that
+431,00:18:59.640,00:19:01.605,chunk432.wav,for the number of epochs you want to
+432,00:19:01.110,00:19:03.915,chunk433.wav,train with and I think that'll do it for
+433,00:19:03.570,00:19:05.670,chunk434.wav,this video and the next one we're going
+434,00:19:06.720,00:19:08.595,chunk435.wav,to start talking about the actual
+435,00:19:07.770,00:19:10.275,chunk436.wav,modeling so what models are available
+436,00:19:10.470,00:19:12.600,chunk437.wav,talk about like conceptually how they
+437,00:19:12.780,00:19:14.890,chunk438.wav,work and then we'll try training some
+438,00:19:14.730,00:19:15.865,chunk439.wav,models

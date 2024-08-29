@@ -1,0 +1,759 @@
+,start,start_ms,end,end_ms,file,volume,text
+0,00:00:00.500,500,00:00:01.500,1500,chunk1.wav,14398,[Intro swoosh]
+1,00:00:02.500,2500,00:00:03.100,3100,chunk2.wav,4707,Gavin: Alright so
+2,00:00:03.700,3700,00:00:04.100,4100,chunk3.wav,10020,Jack: Hey Let's Play.
+3,00:00:04.500,4500,00:00:05.000,5000,chunk4.wav,5142,Gavin: We're doing Let's Play
+4,00:00:05.500,5500,00:00:06.150,6150,chunk5.wav,20851,Geoff: So I guess we would call this Part 3
+5,00:00:06.800,6800,00:00:07.700,7700,chunk6.wav,12373,Geoff: of our Minecraft Let's Plays Gavin: Yep.
+6,00:00:08.600,8600,00:00:08.850,8850,chunk7.wav,13109,Geoff: People keep asking
+7,00:00:09.100,9100,00:00:10.050,10050,chunk8.wav,25844,Geoff: Gavin and I exhaustively spent about the last
+8,00:00:11.000,11000,00:00:11.950,11950,chunk9.wav,17097,"oh I don't know, over the weekend"
+9,00:00:12.900,12900,00:00:14.300,14300,chunk10.wav,10549,"Memorial day weekend, Gavin what would you say, we spent about 15"
+10,00:00:15.700,15700,00:00:16.250,16250,chunk11.wav,12181,"Geoff: to 20 hours making this? Gavin: Yeah, we were working"
+11,00:00:16.800,16800,00:00:17.300,17300,chunk12.wav,7648,Gavin: very hard on Achievement City.
+12,00:00:17.800,17800,00:00:18.200,18200,chunk13.wav,20424,Michael: I went to Six Flags.
+13,00:00:18.600,18600,00:00:19.130,19130,chunk14.wav,9379,Jack: So we're going to Achievement City.
+14,00:00:19.660,19660,00:00:20.220,20220,chunk15.wav,12213,Gavin: This is Geoff: Achievement City
+15,00:00:20.940,20940,00:00:21.370,21370,chunk16.wav,12505,Geoff: this is our new base of operations
+16,00:00:21.800,21800,00:00:22.570,22570,chunk17.wav,11604,Geoff: for all things Minecraft Jack: Why not Achievmentville
+17,00:00:23.340,23340,00:00:23.850,23850,chunk18.wav,14597,Michael: It looks like a cloud
+18,00:00:24.360,24360,00:00:24.810,24810,chunk19.wav,15588,because this is uh we we'll uh
+19,00:00:25.260,25260,00:00:25.670,25670,chunk20.wav,5713,Geoff: live in the city Gavin: So we've been hard at work
+20,00:00:26.080,26080,00:00:26.560,26560,chunk21.wav,11589,Jack: Bleep-bloopbopolis
+21,00:00:27.040,27040,00:00:27.290,27290,chunk22.wav,12739,Geoff: I don't
+22,00:00:27.540,27540,00:00:29.440,29440,chunk23.wav,9071,Gavin: We basically... We built the central area of the city and we built your houses
+23,00:00:31.340,31340,00:00:31.729,31729,chunk24.wav,3937,Gavin: So I'm gonna give you a little tour
+24,00:00:32.119,32119,00:00:32.429,32429,chunk25.wav,31776,Michael: [gasps] I have a house?
+25,00:00:32.740,32740,00:00:34.020,34020,chunk26.wav,32767,Geoff: Everybody has a house Michael: Sweet! That's awesome!
+26,00:00:35.300,35300,00:00:35.920,35920,chunk27.wav,12459,Gavin: Here we go this is... Jack: This cannot end well
+27,00:00:36.560,36560,00:00:37.600,37600,chunk28.wav,10924,Gavin: Achievement City Michael: Holy shit
+28,00:00:38.640,38640,00:00:39.420,39420,chunk29.wav,32564,Gavin: Oooooh look at that
+29,00:00:40.200,40200,00:00:41.630,41630,chunk30.wav,29079,Michael: Ray should not live here Ray: No absolutey not Geoff: Well don't worry you'll see
+30,00:00:43.060,43060,00:00:43.735,43735,chunk31.wav,27084,Michael: He's brown! Ray: No minorities allowed
+31,00:00:44.410,44410,00:00:44.660,44660,chunk32.wav,4013,Jack: Is that the logo on the ground?
+32,00:00:44.910,44910,00:00:45.910,45910,chunk33.wav,21605,Geoff: Yeah we'll get to that Gavin: That is the logo on the ground we'll show you afterwards
+33,00:00:46.910,46910,00:00:47.260,47260,chunk34.wav,8388,Jack: Come on Michael: Whaaaaat
+34,00:00:47.610,47610,00:00:48.390,48390,chunk35.wav,5898,Gavin: These are... This is the little uh area
+35,00:00:49.170,49170,00:00:50.170,50170,chunk36.wav,32104,Michael: You guys have no lives! Geoff: Jack we'll start with you
+36,00:00:51.170,51170,00:00:52.130,52130,chunk37.wav,19919,"Jack: oh this is my house Geoff: Look at this front porch I made you, Jack also"
+37,00:00:53.190,53190,00:00:54.120,54120,chunk38.wav,18592,"Jack: Wow Geoff: Look, show, go show down into the thing"
+38,00:00:55.050,55050,00:00:55.795,55795,chunk39.wav,15181,Gavin: See that? Look at that All: Jack lives here
+39,00:00:56.550,56550,00:00:56.930,56930,chunk40.wav,20163,Gavin: Just like above your desk
+40,00:00:57.310,57310,00:00:57.710,57710,chunk41.wav,19335,Ray: Jack I think that's your house
+41,00:00:58.110,58110,00:00:59.670,59670,chunk42.wav,11882,"Gavin: We put a lot of effort into this it's a beautiful house, its stilted"
+42,00:01:01.230,61230,00:01:01.890,61890,chunk43.wav,5561,It is just... It is brilliant
+43,00:01:02.600,62600,00:01:03.895,63895,chunk44.wav,28789,Michael: That is incredible! Geoff: Those stilts all go all the way down into a mine by the way
+44,00:01:05.190,65190,00:01:05.760,65760,chunk45.wav,11565,"Jack: Wow, okay Geoff: Yeah"
+45,00:01:06.330,66330,00:01:07.620,67620,chunk46.wav,9112,Gavin: This is uh Geoff: Michael's lovely house
+46,00:01:08.910,68910,00:01:09.505,69505,chunk47.wav,30296,Jack: Awaiting approval Michael: What?? Mine??
+47,00:01:10.100,70100,00:01:11.720,71720,chunk48.wav,23256,"Gavin: Did we swear on that sign? Geoff: Awaiting approval, awaiting approval, I don't know, it's weird"
+48,00:01:13.340,73340,00:01:14.250,74250,chunk49.wav,25366,"Ray: No if you swore it would've said like... Gavin: Well... Jack: No, that pops up occasionally"
+49,00:01:15.160,75160,00:01:16.100,76100,chunk50.wav,22117,"Michael: Well, you know, I approve, so"
+50,00:01:17.040,77040,00:01:17.785,77785,chunk51.wav,26050,Gavin: This is Michael's house Jack: Oh he's got a painting inside
+51,00:01:18.540,78540,00:01:19.160,79160,chunk52.wav,32154,Michael: I'm fucking moving in Geoff: Yeah yeah
+52,00:01:19.780,79780,00:01:20.780,80780,chunk53.wav,11411,Gavin: Even some artwork you can see through the window there Michael: Dude!
+53,00:01:21.780,81780,00:01:22.425,82425,chunk54.wav,16814,"Jack: Nice Michael: That's, thank you so much!"
+54,00:01:23.070,83070,00:01:23.705,83705,chunk55.wav,19881,"Gavin: Lovely, everyone's got a bed, everyone's got a chest"
+55,00:01:24.400,84400,00:01:25.610,85610,chunk56.wav,23334,"Michael: I don't know what to say Gavin: It's lovely isn't it Ray: I like it, this is really good"
+56,00:01:26.820,86820,00:01:27.340,87340,chunk57.wav,20180,"Geoff: We're very, we're very proud Michael: This is good"
+57,00:01:27.860,87860,00:01:28.480,88480,chunk58.wav,32615,Michael: Ray! Ray! You're gonna have a home!
+58,00:01:29.100,89100,00:01:29.940,89940,chunk59.wav,32667,Geoff: Gavin's house Gavin: Moving onto my house
+59,00:01:30.780,90780,00:01:31.420,91420,chunk60.wav,15610,Gavin: I haven't labelled it because I know it's my house
+60,00:01:32.070,92070,00:01:32.830,92830,chunk61.wav,14159,Michael: Oh! It's stone Jack: Yours is all stone
+61,00:01:33.590,93590,00:01:34.440,94440,chunk62.wav,17698,Gavin: Look at the art! Jack: Look at all the art in there
+62,00:01:35.290,95290,00:01:35.555,95555,chunk63.wav,32767,Ray: So artsy
+63,00:01:35.820,95820,00:01:37.780,97780,chunk64.wav,16657,"Gavin: There's so much art it covers the door Michael: You are sophisticated, look at that"
+64,00:01:39.740,99740,00:01:41.429,101429,chunk65.wav,29137,Michael: You can't even get past the art to get in Gavin: Look at all the artwork
+65,00:01:43.119,103119,00:01:43.969,103969,chunk66.wav,22969,Geoff: Gavin has become a serious collector Gavin: I really like it
+66,00:01:44.819,104819,00:01:45.819,105819,chunk67.wav,24700,"Michael: You're sophisticated Ray: Apparently. Very, very sophisticated"
+67,00:01:46.820,106820,00:01:47.130,107130,chunk68.wav,19359,Gavin: As we move
+68,00:01:47.450,107450,00:01:48.110,108110,chunk69.wav,3259,Michael: Kudos to you
+69,00:01:48.770,108770,00:01:50.204,110204,chunk70.wav,22474,"Gavin: As we move on, next up in Achievement City is"
+70,00:01:51.659,111659,00:01:52.749,112749,chunk71.wav,10273,Gavin: is Ray's house Jack: Ray!
+71,00:01:53.839,113839,00:01:54.839,114839,chunk72.wav,32767,Gavin and Ray: AAAAAAAAAAAAAAAAAAY
+72,00:01:55.839,115839,00:01:56.949,116949,chunk73.wav,32767,"Michael: Why is, why is Ray's house Ray: Why's it made out of dirt?"
+73,00:01:58.060,118060,00:01:59.030,119030,chunk74.wav,32767,Michael: Why is Ray's house a piece of shit? Geoff: Exactly
+74,00:02:00.000,120000,00:02:00.840,120840,chunk75.wav,32595,Ray: Why do I have one window that I can't reach?
+75,00:02:01.680,121680,00:02:02.800,122800,chunk76.wav,32767,"Geoff: Check it out, inside you have, uh, Ray: A torch?"
+76,00:02:03.920,123920,00:02:04.510,124510,chunk77.wav,32767,Geoff: Just a torch
+77,00:02:05.100,125100,00:02:07.860,127860,chunk78.wav,32767,Ray: Very accurate to my New York apartment
+78,00:02:10.630,130630,00:02:11.470,131470,chunk79.wav,14202,Jack: Okay Gavin: These houses
+79,00:02:12.310,132310,00:02:12.940,132940,chunk80.wav,6946,"Jack: So, so where's uh, where's Geoff's house?"
+80,00:02:13.570,133570,00:02:14.570,134570,chunk81.wav,32737,Gavin: Good question Ray: I'm gonna lava your house by the way
+81,00:02:16.500,136500,00:02:16.775,136775,chunk82.wav,32747,Ray: Fuck your art
+82,00:02:17.050,137050,00:02:18.840,138840,chunk83.wav,25937,"Gavin: In, uh, in quite the contrast to Ray's house we have Geoff's house"
+83,00:02:20.630,140630,00:02:22.550,142550,chunk84.wav,32767,[Laughter]
+84,00:02:24.470,144470,00:02:24.880,144880,chunk85.wav,18425,Michael: It's just like real life!
+85,00:02:25.290,145290,00:02:26.160,146160,chunk86.wav,32767,"Geoff: Go, uh, go in and show 'em my bed Jack: What the what"
+86,00:02:27.030,147030,00:02:27.280,147280,chunk87.wav,14123,Michael: What the fuck
+87,00:02:27.530,147530,00:02:29.150,149150,chunk88.wav,14078,"Gavin: This is Geoff's house, we worked... You can see why it took us a long time!"
+88,00:02:30.770,150770,00:02:31.930,151930,chunk89.wav,32767,Jack: Oh he's got a button [laughter]
+89,00:02:33.090,153090,00:02:34.510,154510,chunk90.wav,32767,Gavin: There's a cloud! Cloud going through the ceiling Jack: There's a cloud inside
+90,00:02:35.930,155930,00:02:36.790,156790,chunk91.wav,20731,"Michael: Did you, did you buy a cloud, Geoff?"
+91,00:02:39.520,159520,00:02:40.240,160240,chunk92.wav,32767,Geoff: I'm renting it
+92,00:02:40.960,160960,00:02:41.880,161880,chunk93.wav,32767,Ray: I just realised I don't even have a bed Geoff: No you don't
+93,00:02:43.000,163000,00:02:44.290,164290,chunk94.wav,24690,"Michael: Oh my god, my stomach hurts Jack: Wow"
+94,00:02:45.580,165580,00:02:46.354,166354,chunk95.wav,26037,"Geoff: So that's my house Michael: My sides, my sides are"
+95,00:02:47.129,167129,00:02:49.229,169229,chunk96.wav,32767,"Gavin: That's Geoff's house Ray: Just on torches, by torches ratio, your house is far superior"
+96,00:02:51.330,171330,00:02:52.350,172350,chunk97.wav,23927,"Michael: I'm gonna be honest Geoff, you don't own very many things"
+97,00:02:53.370,173370,00:02:54.234,174234,chunk98.wav,32767,"Geoff: I don't need much, I have the uh, I have the building"
+98,00:02:55.099,175099,00:02:56.619,176619,chunk99.wav,32767,"Gavin: I'm gonna, ooh, uh, I'm gonna quickly Geoff: This house alone took Gavin and I, uh"
+99,00:02:58.140,178140,00:02:59.500,179500,chunk100.wav,31109,Geoff: over five hours to make Ray: How long did my house take?
+100,00:03:00.980,180980,00:03:02.060,182060,chunk101.wav,29852,"Geoff: Uh, you're house, uh Michael: Over five minutes to make"
+101,00:03:03.140,183140,00:03:03.820,183820,chunk102.wav,21442,Geoff: We let Millie make your house
+102,00:03:04.500,184500,00:03:04.970,184970,chunk103.wav,18919,"Ray: Okay, uh, thank you Millie"
+103,00:03:05.449,185449,00:03:06.769,186769,chunk104.wav,9574,"Gavin: So I'm just gonna quickly walk around the back of Geoff's house, you might want to talk"
+104,00:03:08.089,188089,00:03:08.974,188974,chunk105.wav,11262,amongst yourselves 'cuz it takes quite a while for me to get round there
+105,00:03:09.870,189870,00:03:11.370,191370,chunk106.wav,21306,"Jack: So I'm pretty happy with my house Michael: Dude, I like my house"
+106,00:03:12.870,192870,00:03:13.475,193475,chunk107.wav,32767,"Geoff: Dude, I made that front porch with love"
+107,00:03:14.080,194080,00:03:15.250,195250,chunk108.wav,32630,"Jack: That was - Gavin: Yeah, actually, I built umm"
+108,00:03:16.420,196420,00:03:18.540,198540,chunk109.wav,22370,"Gavin: Michael's mine and Ray's, Geoff spent - Geoff: The entire time"
+109,00:03:20.660,200660,00:03:21.220,201220,chunk110.wav,16756,Gavin: Geoff spent a lot of time on Jack's
+110,00:03:23.480,203480,00:03:24.170,204170,chunk111.wav,26137,Geoff: I'm not as fast of a builder as you are Gavin
+111,00:03:24.870,204870,00:03:25.840,205840,chunk112.wav,22127,"Gavin: But, uh, combined we spent most Michael: Look at this Gavin:This is a ladder to the top"
+112,00:03:26.810,206810,00:03:27.480,207480,chunk113.wav,20862,Michael: Is there a swimming pool top?
+113,00:03:28.150,208150,00:03:30.565,210565,chunk114.wav,29371,"Geoff: No no, nothing flashy [Michael and Gavin talking over each other]"
+114,00:03:32.980,212980,00:03:34.080,214080,chunk115.wav,21310,Jack: Just fortress of solitude Michael: I bet - I bet Gavin: Lemme just climb
+115,00:03:35.180,215180,00:03:36.330,216330,chunk116.wav,31729,Michael: It should be the hot tub that Gavin's never gonna get
+116,00:03:37.480,217480,00:03:38.770,218770,chunk117.wav,18984,Michael: At least you can have it in Minecraft cuz you're never gonna have it in real life Gavin: I just went through the cloud layer there
+117,00:03:40.060,220060,00:03:40.700,220700,chunk118.wav,21171,"Michael: I see that, that was fancy"
+118,00:03:41.380,221380,00:03:42.480,222480,chunk119.wav,20943,Jack: Alright so you're beyond the clouds now Michael: Oh you're so close to the top here -
+119,00:03:43.580,223580,00:03:44.340,224340,chunk120.wav,22083,Gavin: We'll just get to the roof ugh
+120,00:03:45.100,225100,00:03:45.920,225920,chunk121.wav,32767,Ray: You shoulda put my house up there
+121,00:03:47.080,227080,00:03:48.020,228020,chunk122.wav,23264,"Michael: Just put a dog house, Ray lives here"
+122,00:03:48.970,228970,00:03:50.230,230230,chunk123.wav,28906,"Geoff: You can't actually build any higher than this, this is the top of the world"
+123,00:03:51.490,231490,00:03:52.364,232364,chunk124.wav,14277,"Gavin: This is the top level of the world, and uh, this is lit -"
+124,00:03:53.239,233239,00:03:55.054,235054,chunk125.wav,21048,Gavin: This is the observation module Michael: The Observation Module?
+125,00:03:56.870,236870,00:03:58.380,238380,chunk126.wav,32767,"Gavin: And there we go, look at that Michael: Oh shit, how long did that take?"
+126,00:03:59.890,239890,00:04:01.110,241110,chunk127.wav,32767,"Gavin: Long time Geoff: Uuuuh, six hours?"
+127,00:04:02.330,242330,00:04:03.760,243760,chunk128.wav,17786,Gavin: It took a lot of wool and a lot of rubbing out what we'd done and starting again
+128,00:04:05.190,245190,00:04:06.860,246860,chunk129.wav,32767,"Geoff: That is a thousand pieces of wool Michael: So like, did one of you, like, stand up here?"
+129,00:04:08.530,248530,00:04:08.835,248835,chunk130.wav,15176,Geoff and Gavin: Yeah
+130,00:04:09.140,249140,00:04:09.920,249920,chunk131.wav,9980,Michael: While one of you went down there? Gavin: Yeah
+131,00:04:10.700,250700,00:04:12.289,252289,chunk132.wav,29298,"Michael: Who stood up top? Geoff? Gavin: Geoff Geoff: We took turns, but mostly I stood up top"
+132,00:04:13.879,253879,00:04:16.039,256039,chunk133.wav,32767,"Michael: How did I guess? Gavin: Yeah, pretty much Geoff and me, and me scrambling around with 1000 pieces of different coloured wool"
+133,00:04:18.199,258199,00:04:19.379,259379,chunk134.wav,32604,"Michael: Yeah Gavin, it looks like shit, fix it"
+134,00:04:20.700,260700,00:04:21.539,261539,chunk135.wav,25385,"Gavin: Pretty good though, right? Geoff: There was a fair amount of that"
+135,00:04:22.380,262380,00:04:24.240,264240,chunk136.wav,30331,"Michael: Dude that is fantastic Geoff: So we are very proud Ray: That tree, in the top right hand corner? I don't like it"
+136,00:04:26.110,266110,00:04:27.200,267200,chunk137.wav,14407,Gavin: Where? What? Ray: It's not even
+137,00:04:28.290,268290,00:04:29.290,269290,chunk138.wav,32767,Michael: Yeah look! It's in the black. You didn't clear the tree out?
+138,00:04:30.650,270650,00:04:31.450,271450,chunk139.wav,32651,"Gavin: What tree? Geoff: Oh, that tree Michael: Right there!"
+139,00:04:32.250,272250,00:04:33.250,273250,chunk140.wav,22251,"Michael: Look, the bushes are covering the black Gavin: Noo, it makes it look like the floor"
+140,00:04:34.319,274319,00:04:35.479,275479,chunk141.wav,23886,"Michael: [imitating Gavin] Nooooooo Michael: That looks like you got lazy Geoff, I'd make him fix it"
+141,00:04:36.639,276639,00:04:37.469,277469,chunk142.wav,25671,Gavin: Wait wait wait for the cloud to clear over Ray's house
+142,00:04:39.860,279860,00:04:40.230,280230,chunk143.wav,32767,Geoff: There it is!
+143,00:04:43.029,283029,00:04:43.539,283539,chunk144.wav,10014,"Jack: Ah, there's Ray's house"
+144,00:04:44.049,284049,00:04:45.219,285219,chunk145.wav,32732,"Gavin: Alright so now we'll all hop in, and we'll uh Michael: You're house is still pretty badass"
+145,00:04:46.389,286389,00:04:47.119,287119,chunk146.wav,13312,"Geoff: Everyone can explore, uh, Achievement City"
+146,00:04:47.849,287849,00:04:48.589,288589,chunk147.wav,8541,"Gavin: We'll do a little Let's Play, I'm just gonna hop down Michael: ACHIEVEMENTS!"
+147,00:04:49.329,289329,00:04:50.199,290199,chunk148.wav,32767,Gavin: OOOOOOOOOOOOOOOOOOOOH
+148,00:04:51.069,291069,00:04:51.609,291609,chunk149.wav,32676,Michael: Splat
+149,00:04:52.149,292149,00:04:52.579,292579,chunk150.wav,20341,Ray: You died Jack: You're dead
+150,00:04:53.009,293009,00:04:53.359,293359,chunk151.wav,5055,Geoff: Where are you Jack?
+151,00:04:53.710,293710,00:04:55.185,295185,chunk152.wav,4492,"Jack: I'm in the beach somewhere, I'm gonna get some sand Gavin: You - You can see where we are on the map"
+152,00:04:56.660,296660,00:04:57.700,297700,chunk153.wav,15213,Gavin: I wonder if that massive logo will show up on the map?
+153,00:04:58.740,298740,00:04:59.274,299274,chunk154.wav,10575,Michael: This coke tastes like death. Why?
+154,00:04:59.809,299809,00:05:01.529,301529,chunk155.wav,19148,"Gavin: I'm looking forward to Ray moving into his nice place Geoff: I know, I just wanna watch you guys"
+155,00:05:03.249,303249,00:05:04.134,304134,chunk156.wav,13086,all move into your houses
+156,00:05:05.029,305029,00:05:06.109,306109,chunk157.wav,8142,"Geoff: So cute Michael: Oh, do we get invites?"
+157,00:05:07.189,307189,00:05:08.429,308429,chunk158.wav,5073,"Jack: Oh jesus, there's - well there's Geoff's house"
+158,00:05:11.000,311000,00:05:11.755,311755,chunk159.wav,32767,Jack: This monolith just popped into frame
+159,00:05:13.199,313199,00:05:14.814,314814,chunk160.wav,32767,"Michael: I'm glad that we're still like, on the fucking menu while they're playing"
+160,00:05:16.430,316430,00:05:17.240,317240,chunk161.wav,32710,Gavin: It's just like THUNK
+161,00:05:18.050,318050,00:05:19.050,319050,chunk162.wav,8660,Jack: Alright I'm on my way
+162,00:05:20.119,320119,00:05:20.769,320769,chunk163.wav,16463,Ray: We're on the main menu Jack: Oh stuff's popping in
+163,00:05:21.419,321419,00:05:22.189,322189,chunk164.wav,11788,Michael: Cut that out Ray: We're almost there
+164,00:05:22.959,322959,00:05:23.309,323309,chunk165.wav,3044,Jack: Eeeeh ooop ow
+165,00:05:23.659,323659,00:05:25.199,325199,chunk166.wav,18338,Michael: It'd be sweet if my guy didn't fucking mmf oh there we go Jack: What's in the chest Geoff: Bunch of shit
+166,00:05:26.740,326740,00:05:27.870,327870,chunk167.wav,6016,Jack: Ooooh there's diamonds. I'm gonna steal all the fuckin' diamonds Geoff: Yeah
+167,00:05:29.000,329000,00:05:29.959,329959,chunk168.wav,32767,Michael: DUDE! 12345's a bad password
+168,00:05:30.919,330919,00:05:32.309,332309,chunk169.wav,32767,Ray: Dude Rage Quit Peggle Michael: Shout out to everyone there
+169,00:05:33.699,333699,00:05:33.994,333994,chunk170.wav,6591,Jack: Look at my house!
+170,00:05:34.289,334289,00:05:34.969,334969,chunk171.wav,522,Ray: Edit that out
+171,00:05:35.649,335649,00:05:36.299,336299,chunk172.wav,29694,Ray: Edit that out Gavin: I think we made your house too nice if I'm honest
+172,00:05:36.949,336949,00:05:38.739,338739,chunk173.wav,9218,Jack: I have a terrible feeling that there's like landmines all underneath my fucking house
+173,00:05:40.529,340529,00:05:42.274,342274,chunk174.wav,32701,Geoff: God damn dude with the - with the amount of work we put into this fucking Michael: Ray we're finally gonna make it into the game
+174,00:05:44.029,344029,00:05:45.399,345399,chunk175.wav,29209,Geoff: Achievement Hunter logo if any - Ray: Yeah I know. See I don't have to worry about mines because it's just a dirt
+175,00:05:46.769,346769,00:05:47.044,347044,chunk176.wav,23629,Michael: Ray
+176,00:05:47.319,347319,00:05:48.699,348699,chunk177.wav,32767,Michael: Why you not busy? Ray: Because I just signed in Geoff: If anybody blows a god damn thing up
+177,00:05:50.079,350079,00:05:50.889,350889,chunk178.wav,16275,"Geoff: in this fucking house, in this area, I'm gonna-"
+178,00:05:52.220,352220,00:05:53.540,353540,chunk179.wav,32767,Gavin: We've - We've gotta clean save of this right? Just in case everyone trashes it?
+179,00:05:54.860,354860,00:05:55.184,355184,chunk180.wav,24388,Geoff: Oh my god
+180,00:05:55.509,355509,00:05:56.089,356089,chunk181.wav,11379,"Jack: I love this, this is awesome. Ray: Alright"
+181,00:05:56.669,356669,00:05:57.429,357429,chunk182.wav,6404,Jack: What - What's this little piece of wood hanging down in my house though
+182,00:05:58.189,358189,00:05:58.449,358449,chunk183.wav,9111,Geoff: What's that?
+183,00:05:58.709,358709,00:05:59.750,359750,chunk184.wav,32767,"Jack: Is that uh, is that a chandelier or something? Michael: Dude we're in the game"
+184,00:06:00.809,360809,00:06:01.489,361489,chunk185.wav,28386,"Geoff: Oh sorry, I probably just messed that up Michael: Oh yeah"
+185,00:06:02.169,362169,00:06:03.169,363169,chunk186.wav,32767,"Geoff: We were, uh, it was like three in the morning Michael: Who am I? Oh yeah!"
+186,00:06:04.169,364169,00:06:04.844,364844,chunk187.wav,29387,Geoff: when we were making everybody's houses Michael: I'm the - Ray: You're like black carl
+187,00:06:05.520,365520,00:06:06.190,366190,chunk188.wav,15709,Michael: I'm the black Carl Jack: Oh god!
+188,00:06:06.860,366860,00:06:07.660,367660,chunk189.wav,23518,Jack: Fuck Michael: He looks just like Carl right? Ray: Yeah he does
+189,00:06:08.460,368460,00:06:09.130,369130,chunk190.wav,14517,"Michael: I mean, to be fair Jack: Why would you do that? Geoff: [cackling]"
+190,00:06:09.800,369800,00:06:10.270,370270,chunk191.wav,25488,Jack: Why would you do that? Geoff: [more cackling]
+191,00:06:10.740,370740,00:06:11.870,371870,chunk192.wav,28423,Michael: Where is the fuck is our houses? Jack: Why would you do that you son of a bitch?
+192,00:06:13.000,373000,00:06:14.000,374000,chunk193.wav,32767,Geoff: [very loud cackling]
+193,00:06:15.520,375520,00:06:16.450,376450,chunk194.wav,28035,"Geoff: What happened? Jack: I totally saved it though, you asshole"
+194,00:06:17.380,377380,00:06:18.529,378529,chunk195.wav,19544,"Geoff: What happened? Jack: Hey, no! Fuck you. Fuck you Michael: How do you use it again? I don't even remember"
+195,00:06:19.679,379679,00:06:20.109,380109,chunk196.wav,7625,Jack: Don't touch it
+196,00:06:20.539,380539,00:06:21.969,381969,chunk197.wav,32517,Gavin: What happened? Ray: - dumb. I guess you just follow to the other dots
+197,00:06:24.539,384539,00:06:25.159,385159,chunk198.wav,6685,"Jack: Ah fuck, sand doesn't work like that"
+198,00:06:25.860,385860,00:06:26.529,386529,chunk199.wav,32767,"Geoff: [cackling, still]"
+199,00:06:27.199,387199,00:06:27.994,387994,chunk200.wav,6721,"Jack: No, stop it! Get out of my house! I'm gonna do -"
+200,00:06:28.789,388789,00:06:30.324,390324,chunk201.wav,32767,Jack: get out of my house Michael: Dude we're far
+201,00:06:31.869,391869,00:06:32.579,392579,chunk202.wav,30874,"Geoff: What happened, dude?"
+202,00:06:33.289,393289,00:06:33.639,393639,chunk203.wav,6007,Jack: You fucker
+203,00:06:34.140,394140,00:06:34.455,394455,chunk204.wav,19752,Geoff: What's wrong?
+204,00:06:35.789,395789,00:06:36.789,396789,chunk205.wav,10991,Jack: You're tryna kill me. I see how it is Geoff: I don't know what you're talking about
+205,00:06:37.789,397789,00:06:38.754,398754,chunk206.wav,22299,Michael: Where's my house? Do I have a house? Jack: Where's the -
+206,00:06:39.719,399719,00:06:40.819,400819,chunk207.wav,32767,Michael: Hoooly fuck there's Geoff's house!
+207,00:06:41.919,401919,00:06:42.919,402919,chunk208.wav,32737,Michael: I found it Jack: That's exactly what I said
+208,00:06:43.929,403929,00:06:45.439,405439,chunk209.wav,32629,"Michael: If ya - If you don't know where your shit is, look for Geoff's house"
+209,00:06:46.949,406949,00:06:47.429,407429,chunk210.wav,12025,Ray: Look for his monolith?
+210,00:06:47.909,407909,00:06:48.929,408929,chunk211.wav,21861,"Ray: Okay Gavin: Yeah, you can tell where it is"
+211,00:06:49.949,409949,00:06:50.469,410469,chunk212.wav,2519,Jack: Freaking bastard
+212,00:06:50.989,410989,00:06:51.719,411719,chunk213.wav,32766,Michael: Oooh! OH! UEH!
+213,00:06:52.740,412740,00:06:53.470,413470,chunk214.wav,32767,"Michael: Fuck, I fell in a hole Geoff: Is it this one? Where'd it go?"
+214,00:06:54.200,414200,00:06:54.830,414830,chunk215.wav,32767,Michael: NO! Jack: Get out of the way
+215,00:06:55.460,415460,00:06:55.930,415930,chunk216.wav,8173,Jack: I'm gonna kill your ass
+216,00:06:56.400,416400,00:06:56.690,416690,chunk217.wav,4419,Jack: Ow
+217,00:06:56.980,416980,00:06:57.634,417634,chunk218.wav,29571,"Gavin: Alright, alright, stop - Jack: Beat you with sand"
+218,00:06:58.289,418289,00:06:59.039,419039,chunk219.wav,24954,"Gavin: Stop being childish, guys Michael: I've made it to the logo"
+219,00:06:59.789,419789,00:07:00.519,420519,chunk220.wav,14301,"Jack: Hey, oh jesus christ. Aaaah"
+220,00:07:01.249,421249,00:07:01.609,421609,chunk221.wav,21735,Michael: There's Geoffrey's
+221,00:07:01.969,421969,00:07:02.399,422399,chunk222.wav,8737,Jack: How 'bout I beat you with diamond?
+222,00:07:02.830,422830,00:07:03.690,423690,chunk223.wav,32767,Michael: [sniggering] There's Ray's house Jack: - diamond -
+223,00:07:04.550,424550,00:07:05.130,425130,chunk224.wav,32767,Ray: Shut up! Don't laugh at it.
+224,00:07:05.710,425710,00:07:06.179,426179,chunk225.wav,20529,Jack: Aaaaaah you son of a bitch
+225,00:07:06.649,426649,00:07:07.804,427804,chunk226.wav,24017,"Michael: Dude, here's my house. Is this my house? Geoff: Where did you uh - Ray: No that's Gavin's house"
+226,00:07:08.960,428960,00:07:09.960,429960,chunk227.wav,32482,Jack: I think - I think Geoff's tryna burn my house down already Michael: No that's Gavin's house. Fuck you Gavin
+227,00:07:10.960,430960,00:07:11.650,431650,chunk228.wav,32569,Michael: Your house sucks. I want my house Jack: okay
+228,00:07:12.340,432340,00:07:12.809,432809,chunk229.wav,24650,Gavin: What's wrong with my house? Geoff: I think -
+229,00:07:13.279,433279,00:07:14.319,434319,chunk230.wav,31440,Geoff: I think - Michael: Dude here's my house
+230,00:07:15.359,435359,00:07:16.014,436014,chunk231.wav,22684,Ray: Ay I found a wolf Michael: Fuckin
+231,00:07:16.669,436669,00:07:18.209,438209,chunk232.wav,32767,"Michael: Awaiting approval, awaiting approval, awaiting approval, awaiting approval"
+232,00:07:19.749,439749,00:07:20.259,440259,chunk233.wav,32767,Michael: I'm home!
+233,00:07:20.769,440769,00:07:21.974,441974,chunk234.wav,19666,Michael: Small and sweet. Just like my - Ray: Where's my shit house?
+234,00:07:23.180,443180,00:07:23.449,443449,chunk235.wav,19882,Michael: Just like my dick Ray: There it is
+235,00:07:23.719,443719,00:07:25.664,445664,chunk236.wav,14151,Michael: That's what this house is; it's tiny and efficient
+236,00:07:27.610,447610,00:07:28.390,448390,chunk237.wav,16485,"Geoff: Eh, well Ray: Mine's just dirty"
+237,00:07:29.170,449170,00:07:30.129,450129,chunk238.wav,32315,"Michael: Yeah Jack's house is too nice, and"
+238,00:07:31.089,451089,00:07:32.674,452674,chunk239.wav,32767,"OH GOD, OH GOD!!!"
+239,00:07:34.259,454259,00:07:35.689,455689,chunk240.wav,32767,"Ray: Well, it was nice Michael: Well, Jack's house was nice Jack: Yeah"
+240,00:07:37.309,457309,00:07:39.629,459629,chunk241.wav,32767,"Jack: I had a feeling that was gonna happen Michael: Jack, uh, you're not staying with me, I only have one bed in my house"
+241,00:07:41.949,461949,00:07:43.819,463819,chunk242.wav,32767,"Geoff: Gavin, should we tell the guys about how our Let's Play was really a Things to Do in disguise?"
+242,00:07:45.689,465689,00:07:46.424,466424,chunk243.wav,32767,Gavin: [sniggering]
+243,00:07:47.159,467159,00:07:49.189,469189,chunk244.wav,32767,Geoff: We put almost twenty hours into this entire house to build a world
+244,00:07:51.219,471219,00:07:52.864,472864,chunk245.wav,23211,that would trick Jack into thinking that that block wasn't a fucking trap
+245,00:07:55.100,475100,00:07:56.319,476319,chunk246.wav,32767,Jack: And then I fixed it imme- But I fixed it immediately Geoff: Things to Do!
+246,00:07:57.539,477539,00:07:58.189,478189,chunk247.wav,32767,[laughter]
+247,00:07:58.839,478839,00:07:59.549,479549,chunk248.wav,25678,Geoff: Things to Do is to uh Ray: Fuck with Jack?
+248,00:08:00.919,480919,00:08:01.619,481619,chunk249.wav,26323,Geoff: Put lava in the ceiling
+249,00:08:02.320,482320,00:08:03.240,483240,chunk250.wav,32767,[more laughter]
+250,00:08:04.160,484160,00:08:05.140,485140,chunk251.wav,32767,Jack: How did you get it around wood without it catching fire? Geoff: And when you remove the block -
+251,00:08:06.120,486120,00:08:07.120,487120,chunk252.wav,13677,Geoff: When you remove the block Michael: Good lord
+252,00:08:08.360,488360,00:08:10.059,490059,chunk253.wav,32767,Michael: That house is a - so wait you had lava waiting in his house for him?
+253,00:08:11.759,491759,00:08:12.819,492819,chunk254.wav,32767,Gavin: He had la- he had lava in his attic
+254,00:08:13.879,493879,00:08:14.879,494879,chunk255.wav,32767,[laughter just directly into the microphone]
+255,00:08:16.059,496059,00:08:17.579,497579,chunk256.wav,32767,Gavin: Weh uh waiting to be unleashed
+256,00:08:19.099,499099,00:08:19.779,499779,chunk257.wav,32767,Geoff: We had the idea
+257,00:08:20.459,500459,00:08:22.169,502169,chunk258.wav,32767,"to do a Things to Do where you just have a block out of place, and when you knock it down"
+258,00:08:23.880,503880,00:08:24.650,504650,chunk259.wav,23095,you just get lava dumped on your head
+259,00:08:25.429,505429,00:08:26.659,506659,chunk260.wav,32767,Geoff: But we couldn't figure out how to - Jack: So when I - when I said what's this block
+260,00:08:27.889,507889,00:08:28.624,508624,chunk261.wav,8947,"Jack: You were - you were probably just creamed your pants, didn't you?"
+261,00:08:29.360,509360,00:08:30.370,510370,chunk262.wav,32767,"Geoff: Yeah, I was, absolutely. We were terrified you wouldn't fall for it"
+262,00:08:31.380,511380,00:08:32.340,512340,chunk263.wav,32767,Gavin: Look at Ray tryna decorate his mud hut!
+263,00:08:33.300,513300,00:08:34.300,514300,chunk264.wav,32767,[laughter] Ray: I'm tryna decorate my dirt house
+264,00:08:35.300,515300,00:08:37.690,517690,chunk265.wav,32767,"Michael: Dude I don't even have to, I'm ju- My house is legit. I'm leaving it. That's nicer than any house I ever thought I could live in"
+265,00:08:40.080,520080,00:08:40.359,520359,chunk266.wav,32767,Gavin: I wanna see Ray's house
+266,00:08:40.639,520639,00:08:41.489,521489,chunk267.wav,32767,"Gavin: Oh I love - Geoff: It's actually the only house you will live in, too"
+267,00:08:42.339,522339,00:08:43.099,523099,chunk268.wav,32767,"Gavin: I love what you've done with the place, Ray Michael: Jyeahihiss"
+268,00:08:43.860,523860,00:08:44.250,524250,chunk269.wav,15624,Ray: You like it?
+269,00:08:44.640,524640,00:08:46.150,526150,chunk270.wav,32767,"Michael: Look at Jack's house, it's fucking burning down"
+270,00:08:47.660,527660,00:08:48.660,528660,chunk271.wav,32767,[laughing]
+271,00:08:49.660,529660,00:08:50.330,530330,chunk272.wav,32767,Jack: I will - I will fix my house
+272,00:08:51.000,531000,00:08:51.740,531740,chunk273.wav,23777,Michael: You're not fixing shit
+273,00:08:52.480,532480,00:08:53.250,533250,chunk274.wav,32767,Jack: Oh come on
+274,00:08:54.310,534310,00:08:55.460,535460,chunk275.wav,32767,"Jack: You can kill me, fuck it, I'm out [thud] Geoff: NO no no, let him live"
+275,00:08:56.610,536610,00:08:57.610,537610,chunk276.wav,32767,Ray: Jack- Jack Michael: Jack's thrown his controller
+276,00:08:59.170,539170,00:09:00.320,540320,chunk277.wav,32767,Geoff: I'll let him- Michael: [laughs louder than everyone elses audio]
+277,00:09:01.470,541470,00:09:02.244,542244,chunk278.wav,32767,Jack: What more do you want from me?
+278,00:09:04.300,544300,00:09:04.650,544650,chunk279.wav,24338,Gavin: He's probly-
+279,00:09:05.000,545000,00:09:05.700,545700,chunk280.wav,32767,Michael: I can't fucking breathe
+280,00:09:06.400,546400,00:09:08.140,548140,chunk281.wav,32767,Gavin: I like that Ray's- Ray's helping out by putting art on the side of it
+281,00:09:09.880,549880,00:09:10.880,550880,chunk282.wav,32767,"[Geoff, Gavin and Michael are laughing. Jack isn't]"
+282,00:09:11.880,551880,00:09:12.175,552175,chunk283.wav,32767,Michael: I can't fucking breathe
+283,00:09:12.470,552470,00:09:13.420,553420,chunk284.wav,32767,Geoff: Put it out with fire
+284,00:09:14.370,554370,00:09:15.370,555370,chunk285.wav,32767,Gavin: Put it out with good paintings Geoff: Put it out with art. Here
+285,00:09:16.370,556370,00:09:17.254,557254,chunk286.wav,32767,Michael: Oh god Gavin: Oh my god it's flooding the mines
+286,00:09:18.139,558139,00:09:19.079,559079,chunk287.wav,16608,Michael: That is fucking funny
+287,00:09:20.019,560019,00:09:20.624,560624,chunk288.wav,7254,Jack: I need some stone
+288,00:09:21.230,561230,00:09:21.700,561700,chunk289.wav,32767,Gavin: [terrifying laughter]
+289,00:09:22.170,562170,00:09:22.680,562680,chunk290.wav,32767,Gavin: Look at Jack's house
+290,00:09:23.190,563190,00:09:24.190,564190,chunk291.wav,32767,Michael: Dude a fucking pyro's bro
+291,00:09:25.579,565579,00:09:26.539,566539,chunk292.wav,32767,Geoff: Nobody fuck with the Achievement Hunter logo though Jack: No one has stone.
+292,00:09:27.499,567499,00:09:28.304,568304,chunk293.wav,3868,"Jack: Nope. Alright, I'm gonna get some stone"
+293,00:09:29.110,569110,00:09:30.310,570310,chunk294.wav,32767,"Gavin: Oh god, Jack's getting his own back, Geoff! Geoff: Here, I'll help you"
+294,00:09:31.510,571510,00:09:32.275,572275,chunk295.wav,32767,Jack: There we go Michael: Oh god Ray: Woah! Is that cactus?
+295,00:09:33.040,573040,00:09:33.970,573970,chunk296.wav,25107,Gavin: Yeah there's some cactus down there Ray: Nice
+296,00:09:34.900,574900,00:09:36.000,576000,chunk297.wav,32767,Geoff: Oh that's our cactus garden where we had to - where we mined -
+297,00:09:37.110,577110,00:09:38.100,578100,chunk298.wav,32767,Geoff: cactus for green Gavin: How do you think we made all this green wool
+298,00:09:39.090,579090,00:09:39.625,579625,chunk299.wav,15371,Michael: I only had one block? Ray: Nah that's a good point
+299,00:09:40.160,580160,00:09:40.630,580630,chunk300.wav,27605,Gavin: We had to have a cactus farm for the green wool
+300,00:09:41.100,581100,00:09:42.070,582070,chunk301.wav,32767,Geoff: Oh shit! Gavin: We had to have a cactus farm for the green wool
+301,00:09:43.040,583040,00:09:43.630,583630,chunk302.wav,18681,Gavin: What's happened? Geoff: I'm tryna-
+302,00:09:44.220,584220,00:09:44.560,584560,chunk303.wav,32767,Michael: What's happened
+303,00:09:44.900,584900,00:09:45.150,585150,chunk304.wav,32432,Ray: Oh Michael: What's happened
+304,00:09:45.400,585400,00:09:46.070,586070,chunk305.wav,19131,Ray: If you walk into cactus it hurts you
+305,00:09:46.740,586740,00:09:47.070,587070,chunk306.wav,19220,Gavin: Yeah it does
+306,00:09:47.920,587920,00:09:49.010,589010,chunk307.wav,18134,Geoff: Uh... That didn't- That didn't work...
+307,00:09:50.110,590110,00:09:51.814,591814,chunk308.wav,32767,[little Gavvy giggle]
+308,00:09:54.480,594480,00:09:55.140,595140,chunk309.wav,11503,Gavin: Excellent
+309,00:09:55.800,595800,00:09:56.800,596800,chunk310.wav,6035,Quiet Jack: do do dooo Geoff: Aaaand
+310,00:09:57.860,597860,00:09:58.880,598880,chunk311.wav,3332,Quiet Jack: Do do do doo Geoff: Why can't I get?
+311,00:09:59.900,599900,00:10:00.900,600900,chunk312.wav,1649,Quiet Jack: Do do do doooo
+312,00:10:01.900,601900,00:10:02.730,602730,chunk313.wav,17685,"Michael: Jack's up to something, over there"
+313,00:10:03.560,603560,00:10:03.840,603840,chunk314.wav,1950,Ray: He's tryna fix his-
+314,00:10:04.120,604120,00:10:04.615,604615,chunk315.wav,32767,Geoff: OH SHIT Ray: He's tryna fix his-
+315,00:10:05.110,605110,00:10:06.190,606190,chunk316.wav,32465,Geoff: Jack I'm tryna save you! I'm gonna die!
+316,00:10:07.270,607270,00:10:07.725,607725,chunk317.wav,32706,Geoff: God damn it
+317,00:10:08.180,608180,00:10:08.740,608740,chunk318.wav,9696,Ray: Did you die? Geoff: Yeah
+318,00:10:09.300,609300,00:10:10.300,610300,chunk319.wav,12346,"Ray: That sucks Geoff: That's okay, I just lost everything"
+319,00:10:11.829,611829,00:10:13.369,613369,chunk320.wav,32767,Geoff: [while giggling] Are you removing my wall?
+320,00:10:14.909,614909,00:10:16.089,616089,chunk321.wav,21572,"Jack: Nah I- I needed to get some uh, I needed to get some stone"
+321,00:10:17.269,617269,00:10:18.439,618439,chunk322.wav,25074,Gavin: At least it's burning and looking tasteful at the same time
+322,00:10:19.800,619800,00:10:20.400,620400,chunk323.wav,21678,Gavin: Thanks to the arts
+323,00:10:21.000,621000,00:10:21.680,621680,chunk324.wav,32767,Gavin: OH there goes the tree!
+324,00:10:22.540,622540,00:10:23.450,623450,chunk325.wav,32767,Gavin: The tree's gone
+325,00:10:24.459,624459,00:10:24.999,624999,chunk326.wav,32767,Gavin: The tree's on fire Michael: What block?
+326,00:10:25.540,625540,00:10:25.990,625990,chunk327.wav,16949,Ray: Is the artwork still there?
+327,00:10:26.440,626440,00:10:26.810,626810,chunk328.wav,31558,Gavin: The artwork's still there
+328,00:10:27.180,627180,00:10:27.694,627694,chunk329.wav,24393,"Gavin: don't worry 'bout that, Ray Ray: Okay good"
+329,00:10:28.209,628209,00:10:28.919,628919,chunk330.wav,24099,Ray: Alright cool Jack: The tree's on fire Gavin: I love- I love what Ray's
+330,00:10:29.629,629629,00:10:30.484,630484,chunk331.wav,30375,"Gavin: done with this place Jack: Well hey, that'll- that'll, uh"
+331,00:10:31.339,631339,00:10:32.799,632799,chunk332.wav,5438,"Jack: That'll, you know, take care of the uh, the covered part right?"
+332,00:10:34.259,634259,00:10:35.259,635259,chunk333.wav,32767,Ray: OOOOOH NO THERE'S LAVA IN MY HOUSE?
+333,00:10:36.640,636640,00:10:37.150,637150,chunk334.wav,32767,Gavin: Ooh! Who did that?
+334,00:10:37.660,637660,00:10:38.480,638480,chunk335.wav,32767,"Ray: Oh its okay, it's alright, the artwork's fine"
+335,00:10:39.300,639300,00:10:39.660,639660,chunk336.wav,32767,Gavin: Who- Who did the lava in the house
+336,00:10:40.020,640020,00:10:41.020,641020,chunk337.wav,32767,Michael: There's lava in my house but I don't really care Gavin: Who- Who did the lava in the house
+337,00:10:42.200,642200,00:10:42.620,642620,chunk338.wav,32719,Ray: Oh it's raining
+338,00:10:43.040,643040,00:10:43.310,643310,chunk339.wav,17714,Michael: I'm building
+339,00:10:43.580,643580,00:10:44.620,644620,chunk340.wav,32767,Gavin: There better not- Ray: -I can make a hole in my dirt roof
+340,00:10:45.660,645660,00:10:46.380,646380,chunk341.wav,22152,Gavin: I tell you there better not be any lava in my-
+341,00:10:47.100,647100,00:10:47.660,647660,chunk342.wav,32767,Gavin: OH THERE IS
+342,00:10:48.220,648220,00:10:48.780,648780,chunk343.wav,32767,Gavin: THERE'S LAVA IN MINE!
+343,00:10:49.340,649340,00:10:49.839,649839,chunk344.wav,32767,Gavin: Who did that?
+344,00:10:50.340,650340,00:10:50.630,650630,chunk345.wav,22618,Gavin: Uuueh
+345,00:10:50.920,650920,00:10:51.800,651800,chunk346.wav,32767,"Michael: Wooow Gavin Gavin: Scoop it, scoop it"
+346,00:10:52.680,652680,00:10:53.444,653444,chunk347.wav,18949,Geoff: Who's lava-ing all the houses?
+347,00:10:54.209,654209,00:10:55.839,655839,chunk348.wav,32767,Gavin: Uh! Who's- Who's doing that? Who's doing that?
+348,00:10:57.470,657470,00:10:59.214,659214,chunk349.wav,32767,"Geoff: That's not cool Michael: I- I f- I can't imagine, Gavin, who could it be?"
+349,00:11:00.959,660959,00:11:02.469,662469,chunk350.wav,26906,Gavin: I need to dump the lava quickly out of my house and put it somewhere else
+350,00:11:03.979,663979,00:11:04.304,664304,chunk351.wav,17682,[Weird Gavin groaning]
+351,00:11:04.629,664629,00:11:05.379,665379,chunk352.wav,32767,[Weird Gavin snorting]
+352,00:11:06.129,666129,00:11:07.089,667089,chunk353.wav,8825,Geoff: I gotta go to fucking mine for more-
+353,00:11:08.050,668050,00:11:09.490,669490,chunk354.wav,32767,Gavin: OH! Geoff: I don't have shit to mine with
+354,00:11:10.930,670930,00:11:11.510,671510,chunk355.wav,8778,Geoff: 'Cuz all my stuff's still at Jack's
+355,00:11:12.090,672090,00:11:13.674,673674,chunk356.wav,22025,"Gavin: Alright, we should- okay we should maybe"
+356,00:11:15.259,675259,00:11:15.899,675899,chunk357.wav,32767,Gavin: Oooaa uh!
+357,00:11:16.539,676539,00:11:16.909,676909,chunk358.wav,18812,[laughter]
+358,00:11:17.279,677279,00:11:17.709,677709,chunk359.wav,9376,Jack: Gavin's on fire
+359,00:11:18.139,678139,00:11:19.139,679139,chunk360.wav,32767,Ray: The water's not getting rid of the lava. I'm scared
+360,00:11:20.319,680319,00:11:21.149,681149,chunk361.wav,9911,Jack: Look at Gavin on fire
+361,00:11:23.160,683160,00:11:24.150,684150,chunk362.wav,32767,"Gavin: Hey Jack! What're you doing, you're trashing the place!"
+362,00:11:25.470,685470,00:11:25.740,685740,chunk363.wav,5124,Jack: What?
+363,00:11:26.010,686010,00:11:27.340,687340,chunk364.wav,32767,Gavin: What're you doing to my windows? Wha- Why would you do that?
+364,00:11:28.960,688960,00:11:29.410,689410,chunk365.wav,519,Jack: What's- What's going on?
+365,00:11:30.419,690419,00:11:30.689,690689,chunk366.wav,32767,Gavin: OH Jack: What's- What's going on?
+366,00:11:30.960,690960,00:11:31.500,691500,chunk367.wav,18432,Gavin: I keep getting stuck Jack: -ya having problems?
+367,00:11:32.040,692040,00:11:32.395,692395,chunk368.wav,18240,"Gavin: Yeah, little bit"
+368,00:11:32.750,692750,00:11:33.650,693650,chunk369.wav,4005,"Jack: What's- You having- having issues, or something?"
+369,00:11:34.550,694550,00:11:34.830,694830,chunk370.wav,15078,"Gavin: Yeah Jack: What's- You having- having issues, or something?"
+370,00:11:35.780,695780,00:11:36.290,696290,chunk371.wav,15199,Gavin: What's going on Jack? Michael: God damn it
+371,00:11:38.240,698240,00:11:38.620,698620,chunk372.wav,32767,Gavin: Oh my god!
+372,00:11:39.000,699000,00:11:39.410,699410,chunk373.wav,17651,[Jack's turn to cackle] Gavin: Oh my god!
+373,00:11:39.820,699820,00:11:40.424,700424,chunk374.wav,32767,Gavin: You're gonna burn all the wool!
+374,00:11:41.029,701029,00:11:41.729,701729,chunk375.wav,31952,Gavin: You're gonna burn the wool out! Michael: Fffblll
+375,00:11:42.429,702429,00:11:43.429,703429,chunk376.wav,32767,Gavin: Ooaauh! Michael: [imitating Gavin] You're gonna burn the wooooool!
+376,00:11:44.779,704779,00:11:45.979,705979,chunk377.wav,32767,"Gavin: Ugh! Ugh! It's over, I died!"
+377,00:11:47.420,707420,00:11:48.250,708250,chunk378.wav,23496,Geoff: I don't want any fucking ducks in my house
+378,00:11:49.080,709080,00:11:50.080,710080,chunk379.wav,30413,"Michael: Dude, Ray Ray: Dude there's ducks in this game?"
+379,00:11:51.080,711080,00:11:52.840,712840,chunk380.wav,27241,"Michael: Ray check out, m- my- I put an 'M', and then it's like, in the middle of flames Geoff: That's what we've been calling the chickens all weekend for some reason"
+380,00:11:54.600,714600,00:11:55.450,715450,chunk381.wav,6707,Ray: It's pretty cool Michael: It's fucking awesome
+381,00:11:56.300,716300,00:11:57.085,717085,chunk382.wav,22496,Geoff: You're fucking tree's on fire
+382,00:11:57.870,717870,00:11:58.940,718940,chunk383.wav,32767,"Michael: Dude, why's there lava in my house? Why's-"
+383,00:12:00.520,720520,00:12:00.770,720770,chunk384.wav,13308,Ray: I don't know
+384,00:12:01.020,721020,00:12:01.859,721859,chunk385.wav,32767,Geoff: Not the Achievement Hunter logo! Ray: I don't know
+385,00:12:02.699,722699,00:12:03.169,723169,chunk386.wav,29575,Gavin and Geoff: Noo!
+386,00:12:04.700,724700,00:12:05.220,725220,chunk387.wav,4099,Michael: What if I did this?
+387,00:12:06.069,726069,00:12:07.089,727089,chunk388.wav,17083,Gavin: I can just see trees burning in the distance
+388,00:12:08.109,728109,00:12:09.109,729109,chunk389.wav,11578,[laughter]
+389,00:12:10.649,730649,00:12:11.409,731409,chunk390.wav,25923,"Gavin: Let's go back in pre-lava, yeah?"
+390,00:12:12.169,732169,00:12:12.719,732719,chunk391.wav,11138,Geoff: Yeah Gavin: Alright
+391,00:12:13.689,733689,00:12:14.499,734499,chunk392.wav,15502,"Geoff: Alright, ready? Gavin: Let's- Let's put an end to this right now"
+392,00:12:15.309,735309,00:12:16.099,736099,chunk393.wav,27717,"Geoff: Want me to exit? Ray: No, I just got diamond pants!"
+393,00:12:16.889,736889,00:12:17.414,737414,chunk394.wav,9069,"Jack: No, no, it's fine! Let's keep going from here"
+394,00:12:17.940,737940,00:12:19.050,739050,chunk395.wav,32767,Gavin: No come on! Everything's on fire! It's ridiculous!
+395,00:12:20.160,740160,00:12:21.065,741065,chunk396.wav,32218,"Jack: No, I don't know what happened Michael: Yeah, 'cuz you did it"
+396,00:12:21.970,741970,00:12:23.120,743120,chunk397.wav,30305,Ray: Let's be honest I realistically didn't lose anything
+397,00:12:24.270,744270,00:12:25.270,745270,chunk398.wav,32767,[laughter]
+398,00:12:27.740,747740,00:12:28.370,748370,chunk399.wav,22621,"Gavin: Oh, alright"
+399,00:12:29.000,749000,00:12:29.790,749790,chunk400.wav,32767,Gavin: NOO NO NOT ON THE LOGO!
+400,00:12:30.580,750580,00:12:31.260,751260,chunk401.wav,32767,Gavin: WHY WOULD YOU DO THAT?
+401,00:12:32.470,752470,00:12:33.280,753280,chunk402.wav,32767,Geoff: Oh shit. Alright I'm gonna quit
+402,00:12:34.090,754090,00:12:34.660,754660,chunk403.wav,32582,"Gavin: Alright, quit"
+403,00:12:37.279,757279,00:12:38.089,758089,chunk404.wav,31768,Ray: Did we win?
+404,00:12:39.340,759340,00:12:40.040,760040,chunk405.wav,11553,Jack: I think I won that game
+405,00:12:40.749,760749,00:12:42.334,762334,chunk406.wav,32720,"Geoff: Alright, hold on, I wanna go back in Jack: I put lava in every one of your houses"
+406,00:12:43.920,763920,00:12:44.960,764960,chunk407.wav,32767,Gavin: You put lava in my house in two places
+407,00:12:46.660,766660,00:12:48.310,768310,chunk408.wav,29938,"Jack: I found a chest and there was like- there was like eight, or nine lava buckets"
+408,00:12:49.960,769960,00:12:51.190,771190,chunk409.wav,32767,Geoff: Oh yeah Jack: And I'm like well! I'm taking every single one of those
+409,00:12:52.420,772420,00:12:53.850,773850,chunk410.wav,32422,"Gavin: We uh, we probably should have cleared those out before we planned it"
+410,00:12:55.290,775290,00:12:56.980,776980,chunk411.wav,29279,Geoff: That is the hardest Gavin and I have ever worked for one joke in our lives
+411,00:12:58.670,778670,00:12:59.075,779075,chunk412.wav,21149,Michael: Ray you made my day Jack: And I immediately killed it too
+412,00:12:59.480,779480,00:13:00.540,780540,chunk413.wav,28631,Jack: 'cuz I had no- I just like put it out Geoff: You have no i-
+413,00:13:01.600,781600,00:13:03.189,783189,chunk414.wav,32767,"Geoff: We were terrified we we're hoping you'd be so caught off guard you'd be like ""What the- wha- uh?"""
+414,00:13:04.779,784779,00:13:06.409,786409,chunk415.wav,9472,"Jack: Dude, no no, I- I've been building like rails underground through lava, so like"
+415,00:13:08.040,788040,00:13:08.810,788810,chunk416.wav,7122,lava doesn't frighten me at all anymore
+416,00:13:10.440,790440,00:13:10.690,790690,chunk417.wav,6226,Ray: Look at this guy
+417,00:13:11.360,791360,00:13:12.550,792550,chunk418.wav,12379,Michael: Wuh Jack: So how many sheep did you murder to get all that wool?
+418,00:13:13.740,793740,00:13:13.990,793990,chunk419.wav,13935,Gavin: Plenty
+419,00:13:14.500,794500,00:13:16.069,796069,chunk420.wav,27138,"Michael: So what are we doing here? Geoff: Uuuh like, f- like s- uuh hundreds, and- upon hundreds"
+420,00:13:17.649,797649,00:13:18.929,798929,chunk421.wav,29367,"Gavin: Well, there's 31 by 31, this logo"
+421,00:13:20.209,800209,00:13:20.889,800889,chunk422.wav,7682,"Geoff: Oh my god, that was so much work dude"
+422,00:13:21.569,801569,00:13:22.184,802184,chunk423.wav,16987,"Jack: How much math is that, Gavin?"
+423,00:13:22.800,802800,00:13:23.460,803460,chunk424.wav,15184,Gavin: It's like three maths
+424,00:13:24.320,804320,00:13:25.070,805070,chunk425.wav,29134,"Michael: Three?? Geoff: Yeah, it's at least three maths Ray: Only three?"
+425,00:13:26.279,806279,00:13:27.029,807029,chunk426.wav,11464,Michael: Where the hell am I?
+426,00:13:29.220,809220,00:13:29.900,809900,chunk427.wav,27658,Gavin: Feel free to upgrade your houses
+427,00:13:30.580,810580,00:13:31.049,811049,chunk428.wav,32767,Geoff: Yeah- Michael: What shape am I?
+428,00:13:31.519,811519,00:13:32.599,812599,chunk429.wav,17976,Geoff: You do still have a lava ceiling Ray: I have no idea what colour you are
+429,00:13:33.679,813679,00:13:34.759,814759,chunk430.wav,28625,"Michael: I'm- I'm uh Ray: I'm uh Tuxedo Mask Geoff: So, I don't know if you wanna switch that out"
+430,00:13:35.840,815840,00:13:36.560,816560,chunk431.wav,32767,"Geoff: or just leave that block there Michael: Oh shit, really?"
+431,00:13:37.280,817280,00:13:38.470,818470,chunk432.wav,32376,"Geoff: Also, Jack, the uh, mine is under your house Michael: What the fuck"
+432,00:13:39.660,819660,00:13:40.940,820940,chunk433.wav,11822,Geoff: So if you ever need to go mining- Jack: Oh okay is that why I'm up on stitlts?
+433,00:13:42.220,822220,00:13:42.490,822490,chunk434.wav,9047,Geoff: So'd you fix your-
+434,00:13:42.760,822760,00:13:43.550,823550,chunk435.wav,19230,Ray: Alright I got some more dirt for my house
+435,00:13:44.340,824340,00:13:45.049,825049,chunk436.wav,9899,Geoff: Did you fix your lava situation?
+436,00:13:45.759,825759,00:13:47.159,827159,chunk437.wav,29264,Michael: No Jack: What the fuck is- Why is everyone by my fucking door?
+437,00:13:48.559,828559,00:13:48.879,828879,chunk438.wav,27807,Michael: Check out my fucking-
+438,00:13:49.199,829199,00:13:50.559,830559,chunk439.wav,32767,"Gavin: I was- I just wanna see if you accidentally burn your house down Geoff: Fuckin, just take it out, don't worry-"
+439,00:13:51.919,831919,00:13:52.619,832619,chunk440.wav,29812,"Jack: Gavin, you asshole Michael: I know Geoff: I just wanna watch you do it"
+440,00:13:53.319,833319,00:13:53.919,833919,chunk441.wav,32767,"Gavin: Hey, woah woah woah!"
+441,00:13:54.519,834519,00:13:55.019,835019,chunk442.wav,32767,Gavin: Who's in my house?
+442,00:13:55.519,835519,00:13:55.949,835949,chunk443.wav,3853,Jack: Not me Michael: Nobody
+443,00:13:56.379,836379,00:13:56.969,836969,chunk444.wav,22214,"Gavin: Dude, get out of the art gallery"
+444,00:13:57.559,837559,00:13:59.079,839079,chunk445.wav,32767,"Michael: Dude, the art is nice, I will say Gavin: Do you like- do you like OH"
+445,00:14:00.600,840600,00:14:01.700,841700,chunk446.wav,32767,"Gavin: Oh, my god! My god! Stop it!"
+446,00:14:02.800,842800,00:14:03.450,843450,chunk447.wav,32767,Michael: NOOOOOOOOOOOOOOOOOOOO
+447,00:14:04.100,844100,00:14:04.970,844970,chunk448.wav,32767,Michael: I want nice things!
+448,00:14:05.960,845960,00:14:06.690,846690,chunk449.wav,24472,"Geoff: What are they, what- Jack: Is Michael stealing your art?"
+449,00:14:07.420,847420,00:14:08.320,848320,chunk450.wav,32767,Gavin: He- He broke my art! The one that was covering my door
+450,00:14:09.399,849399,00:14:10.499,850499,chunk451.wav,14710,[laughing]
+451,00:14:11.599,851599,00:14:12.469,852469,chunk452.wav,32767,"Michael: It's true Gavin: There we go, it's back"
+452,00:14:13.339,853339,00:14:13.859,853859,chunk453.wav,32767,Gavin: Oh! DuGeoff
+453,00:14:14.760,854760,00:14:15.490,855490,chunk454.wav,26079,Geoff: What are you- What are you doing Ray: -act like nothing ever happened
+454,00:14:16.220,856220,00:14:17.100,857100,chunk455.wav,28008,Michael: Did you say 'DuGeff'? Geoff: What are your weird noises to me for?
+455,00:14:17.980,857980,00:14:18.750,858750,chunk456.wav,11356,"Gavin: Yeah well, I thought you were gonna trash my art gallery"
+456,00:14:19.520,859520,00:14:20.190,860190,chunk457.wav,11169,"Geoff: No, I'm not gonna trash your art gallery, I helped you make it"
+457,00:14:20.860,860860,00:14:22.690,862690,chunk458.wav,32767,Ray: He's not a monster Michael: Have you seen his monolith?Why the fuck does he need your shitty art gallery?
+458,00:14:24.670,864670,00:14:25.280,865280,chunk459.wav,31715,Michael: I was tryna get some art for Ray
+459,00:14:25.890,865890,00:14:26.760,866760,chunk460.wav,32767,Gavin: We should- we should Michael: To spruce the place up a bit
+460,00:14:27.630,867630,00:14:28.500,868500,chunk461.wav,32767,"Gavin: Should've covered the complete outside with art,"
+461,00:14:29.370,869370,00:14:30.280,870280,chunk462.wav,27463,Gavin: top to bottom Michael: Ray teach me how to build things
+462,00:14:31.190,871190,00:14:32.145,872145,chunk463.wav,31472,Geoff: Nice fucking diamond suit R- Ray Michael: Whaaat? Where you getting diamond shit?
+463,00:14:33.100,873100,00:14:33.770,873770,chunk464.wav,32753,Gavin: Nice hat Ray Geoff: Jesus Ray: What?
+464,00:14:34.820,874820,00:14:35.360,875360,chunk465.wav,8770,"Ray: Dude, I gotta look pimp"
+465,00:14:36.100,876100,00:14:37.695,877695,chunk466.wav,25719,Michael: Dude Ray: I'm gonna look like a really cool dude in a shitty house
+466,00:14:39.290,879290,00:14:40.844,880844,chunk467.wav,32767,Ray: Check out my diamond armour and my dirt house Geoff: This is gonna be the equivalent of having a
+467,00:14:42.399,882399,00:14:43.569,883569,chunk468.wav,16483,Geoff: '78 olds with $3000 worth of rims on it
+468,00:14:45.589,885589,00:14:46.669,886669,chunk469.wav,30505,"Michael: Damn it. I was gonna say that Ray: That's what my people do, Geoff"
+469,00:14:49.209,889209,00:14:50.799,890799,chunk470.wav,14779,Ray: Alright. I don't even know where to start. Can I have a bed at least? Jesus christ.
+470,00:14:52.389,892389,00:14:52.984,892984,chunk471.wav,26590,"Geoff: Yeah, you can go make a bed Ray: Or a blanket?"
+471,00:14:53.580,893580,00:14:55.090,895090,chunk472.wav,29586,"Gavin: I really like your floor, Ray. I think you should leave it as is"
+472,00:14:56.600,896600,00:14:57.340,897340,chunk473.wav,21905,Geoff: Ray's floor is the best part
+473,00:14:58.400,898400,00:14:59.440,899440,chunk474.wav,23242,Geoff: I was- I laughed so fucking hard at Ray's floor
+474,00:15:01.240,901240,00:15:01.860,901860,chunk475.wav,8688,[Geoff giggling]
+475,00:15:02.760,902760,00:15:03.110,903110,chunk476.wav,4718,Geoff: One torch
+476,00:15:03.740,903740,00:15:04.500,904500,chunk477.wav,32767,[Michael laughing]
+477,00:15:05.529,905529,00:15:06.279,906279,chunk478.wav,32767,Ray: Whose idea was it to give me the torch?
+478,00:15:07.029,907029,00:15:07.279,907279,chunk479.wav,30748,"Geoff: Uh, it was mine"
+479,00:15:07.529,907529,00:15:08.809,908809,chunk480.wav,32767,Ray: Thank you! Geoff: We actually- we actually gave you a bed and then we took it away
+480,00:15:10.930,910930,00:15:11.550,911550,chunk481.wav,32767,Michael: You decided that was too nice Gavin: We- We made enough beds-
+481,00:15:12.170,912170,00:15:12.650,912650,chunk482.wav,32767,Ray: Thanks Mum
+482,00:15:13.130,913130,00:15:13.930,913930,chunk483.wav,32234,"Gavin: We made enough beds to put in everywhere and we, we f-"
+483,00:15:14.730,914730,00:15:15.890,915890,chunk484.wav,32767,"Michael: There are lava buckets, everywhere Gavin: We furnished your house, Ray"
+484,00:15:17.050,917050,00:15:17.869,917869,chunk485.wav,19865,Gavin: And then removed it all Michael: Dude I'm taking diamond
+485,00:15:18.689,918689,00:15:20.019,920019,chunk486.wav,32767,"Ray: So you thought it was too nice, with the bed, and then you just took it away"
+486,00:15:21.349,921349,00:15:21.679,921679,chunk487.wav,27436,Gavin: Yeah
+487,00:15:22.009,922009,00:15:22.749,922749,chunk488.wav,18461,"Jack: How much lava do you have in my ceiling, is it just that one block?"
+488,00:15:23.489,923489,00:15:23.939,923939,chunk489.wav,10850,"Geoff: Just one block Jack: How much lava do you have in my ceiling, is it just that one block?"
+489,00:15:24.389,924389,00:15:24.639,924639,chunk490.wav,2518,"Jack: Oh, okay"
+490,00:15:24.889,924889,00:15:25.604,925604,chunk491.wav,32767,Michael: I like- That's sc- valid question
+491,00:15:26.319,926319,00:15:27.354,927354,chunk492.wav,32767,"Michael: ""So how much lava's in my ceiling?"""
+492,00:15:29.740,929740,00:15:30.170,930170,chunk493.wav,15225,Geoff: Did you get it fixed? Jack: Yeah
+493,00:15:30.600,930600,00:15:30.994,930994,chunk494.wav,7686,"Geoff: Alright, cool"
+494,00:15:31.389,931389,00:15:32.129,932129,chunk495.wav,13922,"Michael: How do you make diamond armour? Geoff: Yeah, you're good"
+495,00:15:32.869,932869,00:15:33.869,933869,chunk496.wav,27814,"Geoff: Woooah, what're you doing? Wh- Are you making snowballs?"
+496,00:15:35.640,935640,00:15:36.020,936020,chunk497.wav,18172,"Gavin: Who, me? Geoff: Yeah"
+497,00:15:36.400,936400,00:15:36.930,936930,chunk498.wav,13607,Gavin: Yeah I'm making snowballs
+498,00:15:37.460,937460,00:15:37.890,937890,chunk499.wav,4975,Geoff: Fucking sweet dude
+499,00:15:38.320,938320,00:15:38.750,938750,chunk500.wav,5765,Gavin: Whiine
+500,00:15:39.180,939180,00:15:39.690,939690,chunk501.wav,13939,Geoff: What do I do with snowballs
+501,00:15:40.200,940200,00:15:41.700,941700,chunk502.wav,17088,"Gavin: You can make an ice-block, for an igloo, or you can throw snowballs"
+502,00:15:43.400,943400,00:15:44.300,944300,chunk503.wav,14978,Gavin: Like me throwing one at Michael right now
+503,00:15:45.200,945200,00:15:45.730,945730,chunk504.wav,32767,"Gavin: Boop, boop, boop"
+504,00:15:46.260,946260,00:15:47.950,947950,chunk505.wav,21728,"Michael: You missed, you suck Ray: I don't have a shovel so I'm shovelling dirt with a pickaxe"
+505,00:15:49.640,949640,00:15:50.130,950130,chunk506.wav,8691,Geoff: Snowball fight
+506,00:15:50.840,950840,00:15:51.420,951420,chunk507.wav,32767,Michael: Gavin NO!
+507,00:15:52.140,952140,00:15:53.130,953130,chunk508.wav,32321,"Gavin: Sorry. Hey, wo- careful, careful!"
+508,00:15:54.780,954780,00:15:55.950,955950,chunk509.wav,24544,"Michael: Dude I'm throwing snowballs at you, dirt snowballs"
+509,00:15:57.120,957120,00:15:57.840,957840,chunk510.wav,16857,Ray: Oh that's snow? Well
+510,00:15:58.840,958840,00:15:59.950,959950,chunk511.wav,31966,"Ray: Now it's less fun Gavin: Dude you should all come and check- ow, ow!"
+511,00:16:01.060,961060,00:16:02.280,962280,chunk512.wav,10448,"Gavin: Check out our sweet, freaking garden, cactus garden"
+512,00:16:03.500,963500,00:16:04.200,964200,chunk513.wav,18393,Michael: Alright let's check it out Geoff: That was...
+513,00:16:04.900,964900,00:16:05.900,965900,chunk514.wav,9641,"Geoff: A lot of harvesting there, the cactus garden"
+514,00:16:07.000,967000,00:16:07.950,967950,chunk515.wav,18201,"Geoff: We had to make dye Michael: How do I equip jb- oh, there we go"
+515,00:16:09.080,969080,00:16:09.810,969810,chunk516.wav,32767,"Geoff: It was a whole thing Michael: Ooh, dude"
+516,00:16:10.540,970540,00:16:11.790,971790,chunk517.wav,32671,"Michael: If I put the diamond on, it, like, he wears it"
+517,00:16:13.180,973180,00:16:13.610,973610,chunk518.wav,26906,Gavin: Yeah he does
+518,00:16:14.040,974040,00:16:15.040,975040,chunk519.wav,16671,Gavin: You got a nice hat on now. Oh you're getting dressed right in front of me
+519,00:16:16.040,976040,00:16:16.930,976930,chunk520.wav,9170,Michael: Yeah I am. How do you like that?
+520,00:16:18.320,978320,00:16:19.140,979140,chunk521.wav,14829,Michael: Does that upset you? That I'm getting dressed?
+521,00:16:20.360,980360,00:16:20.890,980890,chunk522.wav,7636,Ray: Look at my sweet carpet
+522,00:16:21.420,981420,00:16:22.170,982170,chunk523.wav,28258,Jack: Phone! Michael: Geoff your phone's ringing Geoff: Fuck-
+523,00:16:22.920,982920,00:16:23.170,983170,chunk524.wav,32581,Gavin: Bye Geoff
+524,00:16:23.420,983420,00:16:24.310,984310,chunk525.wav,12905,"Ray: Unprofessional Michael: Yeah I don't think so, no way"
+525,00:16:25.200,985200,00:16:25.730,985730,chunk526.wav,7855,Jack: Oh! It's starting to get dark
+526,00:16:26.260,986260,00:16:27.260,987260,chunk527.wav,23067,Michael: [exceptionally loud burp] Excuse me Geoff: -Let's Plays
+527,00:16:29.420,989420,00:16:30.420,990420,chunk528.wav,32593,"Michael: Dude, I know, that would be rude Geoff: The place that will just have to call back tomorrow"
+528,00:16:31.420,991420,00:16:32.420,992420,chunk529.wav,4359,Jack: I love my sign: 'Jack lives here'
+529,00:16:33.660,993660,00:16:34.390,994390,chunk530.wav,20791,Ray: Mine just says 'Ray'
+530,00:16:35.360,995360,00:16:35.830,995830,chunk531.wav,32709,Michael: What does mine say?
+531,00:16:36.500,996500,00:16:37.270,997270,chunk532.wav,32091,"Michael: Oh yeah, my- mine says Geoff: Yours says 'Awaiting Approval'"
+532,00:16:38.040,998040,00:16:38.970,998970,chunk533.wav,32669,Ray and Michael: Yours says 'Awaiting Approval' Michael: I forgot
+533,00:16:40.200,1000200,00:16:41.050,1001050,chunk534.wav,32767,"Michael: What the fuck does that mean, by the way?"
+534,00:16:43.040,1003040,00:16:44.010,1004010,chunk535.wav,23326,"Geoff: What are you doing, Michael? Ray: Oh they just put up the sign, they didn't write anything on it"
+535,00:16:44.980,1004980,00:16:46.010,1006010,chunk536.wav,17567,"Geoff: What are you guys- What are you digging for? Gavin: Ow, ow"
+536,00:16:47.380,1007380,00:16:48.210,1008210,chunk537.wav,9260,Michael: Who? Geoff: Who's fucking up our dirt?
+537,00:16:49.180,1009180,00:16:50.110,1010110,chunk538.wav,26894,Michael: That's probably me
+538,00:16:51.380,1011380,00:16:52.000,1012000,chunk539.wav,32653,Michael: Yeah that's me
+539,00:16:52.980,1012980,00:16:53.800,1013800,chunk540.wav,32767,Michael: I don't have anything!
+540,00:16:55.000,1015000,00:16:56.190,1016190,chunk541.wav,30940,Michael: Oh what's this? Is this a button? What's this?
+541,00:16:57.680,1017680,00:16:58.530,1018530,chunk542.wav,32767,Michael: Look! What is this?
+542,00:16:59.420,1019420,00:16:59.690,1019690,chunk543.wav,391,Gavin: What is it?
+543,00:17:00.160,1020160,00:17:00.910,1020910,chunk544.wav,7668,"Michael: Look, it looks like a button Geoff: What is that?"
+544,00:17:01.660,1021660,00:17:02.090,1022090,chunk545.wav,6494,Gavin: There's no buttons [click]
+545,00:17:02.740,1022740,00:17:03.510,1023510,chunk546.wav,32767,Michael: Yeah! It was a button!
+546,00:17:04.280,1024280,00:17:04.790,1024790,chunk547.wav,10437,Michael: What's it do? Geoff: Did you push the button?
+547,00:17:05.300,1025300,00:17:05.630,1025630,chunk548.wav,10324,Michael: Yeah
+548,00:17:05.960,1025960,00:17:06.210,1026210,chunk549.wav,4511,Geoff: Okay
+549,00:17:06.460,1026460,00:17:07.460,1027460,chunk550.wav,18149,Gavin: Wha- What? What? Jack: That's terrifying
+550,00:17:08.460,1028460,00:17:08.770,1028770,chunk551.wav,20766,Michael: What does it do?
+551,00:17:09.080,1029080,00:17:09.540,1029540,chunk552.wav,10379,[explosion]
+552,00:17:10.000,1030000,00:17:10.530,1030530,chunk553.wav,13060,"Geoff: Uh, [clears throat]"
+553,00:17:11.760,1031760,00:17:12.010,1032010,chunk554.wav,32767,Michael: OH
+554,00:17:12.260,1032260,00:17:12.550,1032550,chunk555.wav,32767,OOOH
+555,00:17:12.960,1032960,00:17:13.410,1033410,chunk556.wav,32767,OOOOOOOOOH
+556,00:17:13.860,1033860,00:17:14.640,1034640,chunk557.wav,32767,OOOOOOOOOOOOOH GOD
+557,00:17:16.300,1036300,00:17:17.300,1037300,chunk558.wav,32767,Michael: WHAT THE FUCK WAS THAT?
+558,00:17:18.840,1038840,00:17:20.540,1040540,chunk559.wav,32767,"[laughing, and also screaming]"
+559,00:17:22.240,1042240,00:17:22.660,1042660,chunk560.wav,32689,"Ray: What the fuck [laughing, and also screaming]"
+560,00:17:23.080,1043080,00:17:24.510,1044510,chunk561.wav,32767,[more laughing]
+561,00:17:25.940,1045940,00:17:26.580,1046580,chunk562.wav,32767,Michael: I found the button!
+562,00:17:27.260,1047260,00:17:28.090,1048090,chunk563.wav,32767,Geoff: Uh... Michael: Just so you know
+563,00:17:29.160,1049160,00:17:29.840,1049840,chunk564.wav,32767,Michael: Good lord
+564,00:17:30.680,1050680,00:17:31.680,1051680,chunk565.wav,32767,Gavin: Someone found the basement! Michael: My home!
+565,00:17:33.460,1053460,00:17:34.190,1054190,chunk566.wav,32767,Ray: Oh god it's everywhere! Michael: Nooo!
+566,00:17:35.200,1055200,00:17:36.060,1056060,chunk567.wav,32767,Michael: Good god
+567,00:17:36.920,1056920,00:17:38.330,1058330,chunk568.wav,32767,[laughing]
+568,00:17:39.740,1059740,00:17:40.740,1060740,chunk569.wav,32767,Michael: Don't fuck up the Achievement Hunter logo
+569,00:17:43.140,1063140,00:17:44.010,1064010,chunk570.wav,32767,Michael: Holy shit Jack: Wow
+570,00:17:44.880,1064880,00:17:45.580,1065580,chunk571.wav,32767,"Michael: What the fuck? Geoff: That was, um"
+571,00:17:46.280,1066280,00:17:46.720,1066720,chunk572.wav,23201,Geoff: That was our fail-safe
+572,00:17:47.960,1067960,00:17:49.440,1069440,chunk573.wav,32767,Michael: Your fail-safe to what? In case someone hijacked the island?
+573,00:17:51.200,1071200,00:17:51.710,1071710,chunk574.wav,21715,Jack: There's Michael's bed
+574,00:17:52.220,1072220,00:17:52.520,1072520,chunk575.wav,22766,Geoff: Oh no
+575,00:17:53.240,1073240,00:17:53.820,1073820,chunk576.wav,32767,"Jack: Don't worry, it's okay"
+576,00:17:54.820,1074820,00:17:56.040,1076040,chunk577.wav,32767,Michael: I just like- I found a button and Geoff's like
+577,00:17:57.260,1077260,00:17:58.440,1078440,chunk578.wav,32767,"Michael: ""Did you push the button"" and I'm like ""Yeah"" and he goes"
+578,00:17:59.620,1079620,00:18:00.620,1080620,chunk579.wav,32767,Ray: NO MY SHITTY HOUSE JUST GETS SHITTIER Michael: Alright
+579,00:18:02.540,1082540,00:18:03.540,1083540,chunk580.wav,32767,"Michael: I don't think that's possible Gavin: By the way, that was known as 'Plan G'"
+580,00:18:04.540,1084540,00:18:05.030,1085030,chunk581.wav,32767,Michael: Let me- Ray: I DIED
+581,00:18:05.520,1085520,00:18:07.170,1087170,chunk582.wav,32767,Michael: Now- Now let me guess this button doesn't fuck up Geoff's house at all
+582,00:18:08.820,1088820,00:18:09.680,1089680,chunk583.wav,32767,"Geoff: Oh yeah, no, my house got fucked up"
+583,00:18:10.740,1090740,00:18:11.540,1091540,chunk584.wav,32767,Geoff: Cool thing about that button- Michael: YOU- YOU GOT LIKE A
+584,00:18:12.340,1092340,00:18:13.450,1093450,chunk585.wav,32767,Michael: FUCKING DENT IN THE SIDE OF YOUR MONOLITH
+585,00:18:14.740,1094740,00:18:15.400,1095400,chunk586.wav,26615,Geoff: Cool thing about that button-
+586,00:18:16.120,1096120,00:18:16.600,1096600,chunk587.wav,32767,Gavin: Let's assess the damage
+587,00:18:17.080,1097080,00:18:17.830,1097830,chunk588.wav,32767,"Gavin: Ooooh Geoff, you did take some damage"
+588,00:18:18.580,1098580,00:18:19.790,1099790,chunk589.wav,32767,"Geoff: I did. Hey, let's go up to the roof and uh, fucking look from the roof Michael: Good lord"
+589,00:18:22.180,1102180,00:18:22.820,1102820,chunk590.wav,32767,Ray: I can't even respawn
+590,00:18:24.540,1104540,00:18:26.040,1106040,chunk591.wav,32767,Michael: There's fucking diamond shit everywhere from someone who died!
+591,00:18:27.540,1107540,00:18:28.070,1108070,chunk592.wav,32767,Ray: THAT WAS ME!
+592,00:18:28.600,1108600,00:18:29.950,1109950,chunk593.wav,32767,[laughter]
+593,00:18:31.300,1111300,00:18:32.420,1112420,chunk594.wav,32767,Michael: Ray was in the middle of the blast zone!
+594,00:18:33.840,1113840,00:18:34.840,1114840,chunk595.wav,32767,Michael: He was at ground zero!
+595,00:18:35.840,1115840,00:18:36.360,1116360,chunk596.wav,32767,[laughter]
+596,00:18:36.880,1116880,00:18:38.520,1118520,chunk597.wav,32767,Ray: All I wanna do is put a Jack'O'Lantern in my house and my mouth got fucked
+597,00:18:40.160,1120160,00:18:41.040,1121040,chunk598.wav,32767,"Michael: Ray just like ""OOOUUUUUUUUH!"""
+598,00:18:42.500,1122500,00:18:43.030,1123030,chunk599.wav,28168,Jack: Dude- ah shit
+599,00:18:44.580,1124580,00:18:46.180,1126180,chunk600.wav,32767,"Gavin: I just watched Jack just, walk out of his front door and into the crater"
+600,00:18:48.600,1128600,00:18:49.600,1129600,chunk601.wav,32767,"Geoff: We were gonna- Ray: Still tryna respawn, by the way"
+601,00:18:50.600,1130600,00:18:51.230,1131230,chunk602.wav,32767,Michael: Still respawning
+602,00:18:51.980,1131980,00:18:52.980,1132980,chunk603.wav,28178,"Geoff: You have no idea how, uh"
+603,00:18:54.240,1134240,00:18:55.590,1135590,chunk604.wav,21424,Geoff: How nervous Gavin and I were you guys would not find that button
+604,00:18:56.940,1136940,00:18:57.740,1137740,chunk605.wav,32767,Michael: Dude I found that button quick as shit!
+605,00:18:58.540,1138540,00:18:59.280,1139280,chunk606.wav,32767,"Ray: The funny thing is, I saw the chest full of-"
+606,00:19:00.020,1140020,00:19:01.450,1141450,chunk607.wav,32709,Geoff: Gavin and I were fucking standing by it hanging out like doo bee doo bee do
+607,00:19:03.120,1143120,00:19:03.890,1143890,chunk608.wav,32767,Geoff: This is a good place to hang out Ray: I found a- I found a chest with like
+608,00:19:04.660,1144660,00:19:05.660,1145660,chunk609.wav,10929,"Ray: I don't know, like 300 dynamite and I'm like ""Okay"""
+609,00:19:06.660,1146660,00:19:08.210,1148210,chunk610.wav,32767,"Gavin: Yeah! Ray: Mayb- Maybe they used this to clear this out, I didn't think anything of it"
+610,00:19:10.240,1150240,00:19:11.290,1151290,chunk611.wav,32767,"Ray: We lost connection, I got blown out of the server"
+611,00:19:12.500,1152500,00:19:13.500,1153500,chunk612.wav,32767,"Michael: Ray got blown- yeah Gavin: So, I'm just assessing the damage Geoff: Can we, uh-"
+612,00:19:14.500,1154500,00:19:15.900,1155900,chunk613.wav,32767,"Gavin: Michael's took a f- a- uh, quite a punch"
+613,00:19:17.440,1157440,00:19:17.810,1157810,chunk614.wav,25280,Geoff: Are you on the roof?
+614,00:19:18.180,1158180,00:19:18.690,1158690,chunk615.wav,21001,"Gavin: He's still- No, are you?"
+615,00:19:19.200,1159200,00:19:20.160,1160160,chunk616.wav,32767,"Geoff: Um, going there right now Ray: Does my- Does my home even exist anymore?"
+616,00:19:21.120,1161120,00:19:21.780,1161780,chunk617.wav,32767,Michael: We need another invite
+617,00:19:22.440,1162440,00:19:24.010,1164010,chunk618.wav,32767,"Michael: We got blasted out of the game Gavin: Oh, no! It blew all my art of the walls"
+618,00:19:25.580,1165580,00:19:26.580,1166580,chunk619.wav,32622,"Geoff: Gavin d'you wanna- Gavin and Jack, do you wanna invite them back in? Ray: Oh sorry!"
+619,00:19:28.720,1168720,00:19:29.490,1169490,chunk620.wav,32767,Michael: Fucking funny! Geoff: After we were all totally done
+620,00:19:30.260,1170260,00:19:31.800,1171800,chunk621.wav,19668,Geoff: We were like- dude come look at the fucking-
+621,00:19:34.820,1174820,00:19:35.480,1175480,chunk622.wav,31161,Michael: Ray you died Ray: I died again
+622,00:19:36.920,1176920,00:19:37.920,1177920,chunk623.wav,32767,Gavin: Are you back in the game? Geoff: Some of- Some of the green survived Michael: Yeah
+623,00:19:39.780,1179780,00:19:40.180,1180180,chunk624.wav,6000,Geoff: Oh man
+624,00:19:40.580,1180580,00:19:41.120,1181120,chunk625.wav,32767,"Michael: Dude, I'm back with my shit, too!"
+625,00:19:41.660,1181660,00:19:42.510,1182510,chunk626.wav,32767,"Geoff: How much, uh- How much dynamite was that, Gavin?"
+626,00:19:43.360,1183360,00:19:44.060,1184060,chunk627.wav,32694,Gavin: That was probably- Michael: A lot?
+627,00:19:44.760,1184760,00:19:45.790,1185790,chunk628.wav,32767,"Gavin: Fifteen- Ray: I don't have a map, so I just gotta look for his- his monolith"
+628,00:19:46.820,1186820,00:19:47.610,1187610,chunk629.wav,32767,Gavin: I'd say 1500 pieces of dynamite
+629,00:19:48.400,1188400,00:19:49.400,1189400,chunk630.wav,29455,Geoff: I'd say at least- Well it had to be at least- Jack: Wow Michael: I don't have a map
+630,00:19:50.400,1190400,00:19:51.700,1191700,chunk631.wav,32767,Michael: But I didn't even die Gavin: Oh! Is that Ray's house up there with the green wool in it?
+631,00:19:53.000,1193000,00:19:53.250,1193250,chunk632.wav,15040,Geoff: Yeah
+632,00:19:53.760,1193760,00:19:54.760,1194760,chunk633.wav,25922,Geoff: I would say it was about 1800? Ray: I had a cool carpet
+633,00:19:55.900,1195900,00:19:56.600,1196600,chunk634.wav,23579,Geoff: Probably 15 to 1800 dynamite
+634,00:19:57.300,1197300,00:19:58.030,1198030,chunk635.wav,26544,Ray: Oh! I found the monolith
+635,00:19:59.300,1199300,00:20:00.300,1200300,chunk636.wav,32674,"Geoff: Gavin and I, at the last minute, had that idea"
+636,00:20:01.640,1201640,00:20:02.420,1202420,chunk637.wav,26186,Geoff: So we had to tunnel under Ray: Can you uh-
+637,00:20:03.200,1203200,00:20:04.130,1204130,chunk638.wav,32767,"Geoff: Achievement City, and then put dynamite Gavin: Ray! Your- Your house"
+638,00:20:05.060,1205060,00:20:05.980,1205980,chunk639.wav,15410,Geoff: up under every single block of wool
+639,00:20:06.900,1206900,00:20:07.900,1207900,chunk640.wav,21017,"Geoff: and then dynamite under that, and then dynamite under that"
+640,00:20:08.900,1208900,00:20:09.260,1209260,chunk641.wav,18552,Michael: It was worth it
+641,00:20:09.620,1209620,00:20:09.970,1209970,chunk642.wav,29848,Geoff: It was three levels Gavin: Your-
+642,00:20:10.320,1210320,00:20:10.830,1210830,chunk643.wav,19762,"Ray: How does my house look, Gavin?"
+643,00:20:11.340,1211340,00:20:12.190,1212190,chunk644.wav,32767,"Gavin: Your house got- took quite a- uh, Michael: Can we just-"
+644,00:20:13.040,1213040,00:20:13.670,1213670,chunk645.wav,24392,"Gavin: A hit, Ray Geoff: Jack's house is fucking fine, by the way"
+645,00:20:14.300,1214300,00:20:15.220,1215220,chunk646.wav,32767,"Gavin: I'm not gonna lie your- Geoff: Jack's house is fucking fine, by the way Jack: My house is perfect"
+646,00:20:16.140,1216140,00:20:17.380,1217380,chunk647.wav,32767,"Gavin: Your door is off Ray: Well, at least my carpet's kinda still there"
+647,00:20:18.820,1218820,00:20:20.020,1220020,chunk648.wav,32767,"Gavin: I like the- the dent in Geoff's house, it looks like someone hit it"
+648,00:20:21.220,1221220,00:20:21.800,1221800,chunk649.wav,8433,Gavin: It''s like a meteor
+649,00:20:22.380,1222380,00:20:23.380,1223380,chunk650.wav,15759,"Geoff: You, hey, wu- You should see from my view, Gavin"
+650,00:20:24.900,1224900,00:20:25.840,1225840,chunk651.wav,17950,[laughter]
+651,00:20:26.780,1226780,00:20:27.780,1227780,chunk652.wav,26731,Geoff: It's just a fucking crater where Ear- we- were-
+652,00:20:29.000,1229000,00:20:29.840,1229840,chunk653.wav,15784,Geoff: Where civilization used to be
+653,00:20:30.680,1230680,00:20:31.050,1231050,chunk654.wav,11797,Gavin: That is excellent
+654,00:20:31.760,1231760,00:20:32.310,1232310,chunk655.wav,7802,Gavin: That is brilliant
+655,00:20:32.940,1232940,00:20:33.190,1233190,chunk656.wav,10128,Ray: Well
+656,00:20:33.680,1233680,00:20:34.080,1234080,chunk657.wav,20802,Geoff: Alright
+657,00:20:34.480,1234480,00:20:35.290,1235290,chunk658.wav,32734,"Gavin: Alright, so get to rebuilding guys, uh-"
+658,00:20:36.100,1236100,00:20:36.540,1236540,chunk659.wav,32767,Michael: Fuck you
+659,00:20:37.520,1237520,00:20:37.860,1237860,chunk660.wav,14165,Jack: I'm fine
+660,00:20:38.200,1238200,00:20:39.150,1239150,chunk661.wav,32767,"Michael: Dude I found the button, my job's done"
+661,00:20:40.100,1240100,00:20:41.300,1241300,chunk662.wav,31867,Gavin: I'm not happy that Jack's house is just absolutely untouched
+662,00:20:42.500,1242500,00:20:42.990,1242990,chunk663.wav,18487,Jack: I'm fine Michael: Really? Ray: Well there's like
+663,00:20:43.480,1243480,00:20:44.200,1244200,chunk664.wav,14873,Ray: twenty buckets of lava here and... Jack: I got-
+664,00:20:44.920,1244920,00:20:45.820,1245820,chunk665.wav,23763,Michael: Well whose house is this? Is this my house?
+665,00:20:46.800,1246800,00:20:47.050,1247050,chunk666.wav,5170,Ray: Can I-
+666,00:20:47.300,1247300,00:20:48.670,1248670,chunk667.wav,22085,"Ray: Can I have my diamond stuff back? Geoff: I- I can see some of your roof, Michael"
+667,00:20:50.040,1250040,00:20:51.570,1251570,chunk668.wav,32767,"Michael: I don't know, like, I'm stuck in a crater so I don't know whose house is whose"
+668,00:20:53.100,1253100,00:20:54.750,1254750,chunk669.wav,32714,"Michael: I think this is my house, but I- I'm missing the fucking 'Awaiting Approval' sign"
+669,00:20:56.400,1256400,00:20:57.310,1257310,chunk670.wav,16986,Michael: so I'm not sure if it's mine or not
+670,00:20:58.220,1258220,00:21:00.240,1260240,chunk671.wav,18806,Jack: Yours's the one that's- like the jaw of your house has been blown off
+671,00:21:02.260,1262260,00:21:03.060,1263060,chunk672.wav,32736,Michael: Am I standing near my house?
+672,00:21:03.860,1263860,00:21:04.530,1264530,chunk673.wav,12038,"Jack: Yes, you are. That's your house Ray: I'm under Jack's house"
+673,00:21:05.200,1265200,00:21:05.610,1265610,chunk674.wav,8243,"Michael: Oh, okay"
+674,00:21:06.760,1266760,00:21:07.760,1267760,chunk675.wav,24450,"Michael: Just fucking, live in Jack's basement Geoff: How do you go downstairs?"
+675,00:21:10.020,1270020,00:21:11.350,1271350,chunk676.wav,19417,Michael: For me? It's like I just fall into the ground [explosions]
+676,00:21:12.680,1272680,00:21:13.270,1273270,chunk677.wav,19808,"Ray: Oh god, there's more TNT"
+677,00:21:13.860,1273860,00:21:14.480,1274480,chunk678.wav,32329,"Jack: Oh, there's more TNT Ray: It's raining TNT."
+678,00:21:15.100,1275100,00:21:15.680,1275680,chunk679.wav,31924,"Ray: Who did that? Jack: Okay, there goes my house"
+679,00:21:16.260,1276260,00:21:16.860,1276860,chunk680.wav,32767,"Geoff: Oh shit, oh shit!"
+680,00:21:17.460,1277460,00:21:18.250,1278250,chunk681.wav,32767,"Michael: ""Okay there goes my house"""
+681,00:21:19.040,1279040,00:21:19.430,1279430,chunk682.wav,16476,Geoff: Found the stairs
+682,00:21:19.820,1279820,00:21:21.670,1281670,chunk683.wav,32563,"Jack: Well, I don't know what happened. My- m- The roof of my house is gone, but I'm still fine"
+683,00:21:25.720,1285720,00:21:26.200,1286200,chunk684.wav,26408,Ray: Jack over there
+684,00:21:27.880,1287880,00:21:29.700,1289700,chunk685.wav,32767,"Michael: Jack's just like ""Well, my house is gone"" and I just hear Gavin cackling, so-"
+685,00:21:32.040,1292040,00:21:32.870,1292870,chunk686.wav,23900,Michael: I can just assume what happened there
+686,00:21:33.700,1293700,00:21:35.210,1295210,chunk687.wav,22534,Jack: So I don't know if Gavin just put TNT on top of my house?
+687,00:21:36.720,1296720,00:21:38.070,1298070,chunk688.wav,11800,"Jack: Yeah I'm gonna- Yeah there's a little- little trace of Gavin, so"
+688,00:21:39.420,1299420,00:21:40.690,1300690,chunk689.wav,32767,"Michael: Yeah, there's trace evidence, of some TNT"
+689,00:21:42.300,1302300,00:21:43.860,1303860,chunk690.wav,29206,"Ray: One block was lava, the other like, ten blocks were TNT"
+690,00:21:45.420,1305420,00:21:47.310,1307310,chunk691.wav,32767,[laughter]
+691,00:21:49.200,1309200,00:21:49.600,1309600,chunk692.wav,6518,[Geoff sighs]
+692,00:21:50.000,1310000,00:21:51.530,1311530,chunk693.wav,32756,"Gavin: Oh, we've made a mess guys. We have made a really bad mess"
+693,00:21:53.060,1313060,00:21:54.060,1314060,chunk694.wav,32767,"Michael: We didn't make a fucking mess, Gavin"
+694,00:21:55.440,1315440,00:21:55.800,1315800,chunk695.wav,8857,"Ray: Who's 'we', yeah?"
+695,00:21:56.160,1316160,00:21:57.440,1317440,chunk696.wav,32767,"Michael: I can't see anything in the rain, damn it!"
+696,00:21:58.920,1318920,00:21:59.680,1319680,chunk697.wav,32767,"Gavin: That was worth twenty hours, right Geoff?"
+697,00:22:00.440,1320440,00:22:00.880,1320880,chunk698.wav,21495,"Geoff: That might be the best, yeah"
+698,00:22:01.320,1321320,00:22:01.980,1321980,chunk699.wav,32767,"Michael: It was for you, maybe"
+699,00:22:03.260,1323260,00:22:04.260,1324260,chunk700.wav,32767,Michael: I'm fine with the two minutes I spent
+700,00:22:06.240,1326240,00:22:06.610,1326610,chunk701.wav,11061,Ray: I found iron
+701,00:22:07.340,1327340,00:22:07.690,1327690,chunk702.wav,11774,Geoff: Oh good
+702,00:22:08.720,1328720,00:22:09.630,1329630,chunk703.wav,6503,Geoff: You can use that to rebuild civilisation
+703,00:22:10.580,1330580,00:22:10.830,1330830,chunk704.wav,15865,[Gavin snorts]
+704,00:22:11.980,1331980,00:22:13.500,1333500,chunk705.wav,17558,Michael: Look at this fucking mess Gavin unleashed Jack: I'm tryna set Gavin on fire
+705,00:22:16.760,1336760,00:22:17.760,1337760,chunk706.wav,3358,Geoff: God damn that is- I-
+706,00:22:19.200,1339200,00:22:20.200,1340200,chunk707.wav,20395,"Geoff: You know what, Gavin? I'm really glad we went and added Jack: Woah, woah!"
+707,00:22:21.200,1341200,00:22:21.880,1341880,chunk708.wav,10093,Jack: Holy shit!
+708,00:22:22.560,1342560,00:22:23.560,1343560,chunk709.wav,11839,"Jack: Look I'm stood right on the edge of that explosion, Gavin"
+709,00:22:25.960,1345960,00:22:26.770,1346770,chunk710.wav,32767,Ray: You put lava down here with me?!
+710,00:22:27.580,1347580,00:22:27.830,1347830,chunk711.wav,24740,Michael: Yeah
+711,00:22:28.080,1348080,00:22:28.650,1348650,chunk712.wav,32767,Ray: Are you serious?
+712,00:22:29.360,1349360,00:22:31.040,1351040,chunk713.wav,32767,Michael: You just said- You were just gloating about how lava couldn't kill you
+713,00:22:32.720,1352720,00:22:33.340,1353340,chunk714.wav,18935,"Ray: Well it can, it's just-"
+714,00:22:33.960,1353960,00:22:34.350,1354350,chunk715.wav,32242,Ray: You know... Geoff: Where are you Ray?
+715,00:22:34.740,1354740,00:22:34.990,1354990,chunk716.wav,12277,Michael: Still
+716,00:22:35.240,1355240,00:22:36.240,1356240,chunk717.wav,15858,Ray: I'm right inside a waterfall
+717,00:22:37.240,1357240,00:22:38.190,1358190,chunk718.wav,32767,"Michael: Now if you touch the lava, will you die? Yeah you will Ray: Right next to a lava-fall"
+718,00:22:39.140,1359140,00:22:40.060,1360060,chunk719.wav,32767,Michael: You're getting fucked up bro Ray: Oh my god it hurts
+719,00:22:40.980,1360980,00:22:41.840,1361840,chunk720.wav,32124,Michael: You're getting murdered by the lava waterfall
+720,00:22:42.700,1362700,00:22:43.150,1363150,chunk721.wav,9113,"Ray: Well, I'm just gonna-"
+721,00:22:43.600,1363600,00:22:44.150,1364150,chunk722.wav,14330,Geoff: Are you down here somewhere?
+722,00:22:44.700,1364700,00:22:45.060,1365060,chunk723.wav,5573,Ray: Maybe
+723,00:22:46.060,1366060,00:22:46.590,1366590,chunk724.wav,17057,Michael: You got rid of the lava
+724,00:22:47.120,1367120,00:22:48.160,1368160,chunk725.wav,15019,Ray: I did get rid of the lava. I'm tryna get out
+725,00:22:49.580,1369580,00:22:50.030,1370030,chunk726.wav,3874,Ray: Where the hell is this?
+726,00:22:50.480,1370480,00:22:51.030,1371030,chunk727.wav,8075,Geoff: Where the fuck are you guys?
+727,00:22:51.580,1371580,00:22:51.960,1371960,chunk728.wav,7275,Ray: I don't know where I-
+728,00:22:52.340,1372340,00:22:53.680,1373680,chunk729.wav,32767,"Ray: I'm scared Michael: I'm- I'm going down, but I don't have any tools"
+729,00:22:55.300,1375300,00:22:55.970,1375970,chunk730.wav,25388,Michael: Oh someone jumped in the hole with me
+730,00:22:56.640,1376640,00:22:56.950,1376950,chunk731.wav,5872,Geoff: Yeah it was me
+731,00:22:57.260,1377260,00:22:57.570,1377570,chunk732.wav,30495,Gavin: Ueep! Up!
+732,00:22:57.880,1377880,00:22:58.130,1378130,chunk733.wav,18038,Geoff: Yeah
+733,00:22:58.380,1378380,00:22:59.090,1379090,chunk734.wav,32192,"Michael: Oh, fuck"
+734,00:22:59.800,1379800,00:23:00.140,1380140,chunk735.wav,15057,Geoff: -diamond pants
+735,00:23:00.480,1380480,00:23:01.070,1381070,chunk736.wav,32610,"Michael: Geoff, we're fucked"
+736,00:23:01.660,1381660,00:23:02.100,1382100,chunk737.wav,19334,Geoff: I got no tools
+737,00:23:02.540,1382540,00:23:03.310,1383310,chunk738.wav,32767,Michael: Why would you jump down here?!
+738,00:23:04.080,1384080,00:23:04.850,1384850,chunk739.wav,16365,Geoff: I lost all my tools
+739,00:23:05.960,1385960,00:23:06.750,1386750,chunk740.wav,32767,Michael: Alright well I'm still going down
+740,00:23:07.540,1387540,00:23:07.940,1387940,chunk741.wav,32734,Michael: Stop hitting me!
+741,00:23:08.340,1388340,00:23:09.150,1389150,chunk742.wav,15514,"Geoff: I'm not tryna hit you, I'm tryna hit anything"
+742,00:23:09.960,1389960,00:23:10.210,1390210,chunk743.wav,32767,Michael: Stop
+743,00:23:10.460,1390460,00:23:10.980,1390980,chunk744.wav,32767,Michael: STOOOOP!
+744,00:23:13.780,1393780,00:23:14.370,1394370,chunk745.wav,6234,Jack: This is the dumbest video ever
+745,00:23:14.960,1394960,00:23:16.020,1396020,chunk746.wav,32767,Michael: You- You're fucking hitting me! Stop!!!
+746,00:23:17.080,1397080,00:23:17.460,1397460,chunk747.wav,32767,Geoff: I'm not trying to hit you
+747,00:23:17.840,1397840,00:23:18.920,1398920,chunk748.wav,13278,"Ray: Dude six man X-Men commentary, you can't top that"
+748,00:23:20.460,1400460,00:23:21.110,1401110,chunk749.wav,21745,"Geoff: Alright you dig, I'll jump"
+749,00:23:21.760,1401760,00:23:22.870,1402870,chunk750.wav,14836,[laughter]
+750,00:23:23.980,1403980,00:23:24.410,1404410,chunk751.wav,13725,Ray: Solid plan
+751,00:23:25.640,1405640,00:23:26.050,1406050,chunk752.wav,6761,Ray: What is this?
+752,00:23:26.460,1406460,00:23:27.210,1407210,chunk753.wav,29167,Michael: I was digging down to Ray
+753,00:23:28.080,1408080,00:23:29.650,1409650,chunk754.wav,32767,"Ray: There's more lava down here?! Jesus christ, I can't escape it!"
+754,00:23:32.380,1412380,00:23:33.380,1413380,chunk755.wav,31424,"Ray: I try and find a way out, there's just more"
+755,00:23:34.380,1414380,00:23:34.770,1414770,chunk756.wav,28488,[Geoff laughing]
+756,00:23:36.520,1416520,00:23:36.840,1416840,chunk757.wav,17297,[Gavin sighs] Ray: Fuck dude
+757,00:23:37.160,1417160,00:23:38.450,1418450,chunk758.wav,32767,Gavin: I'm standing upon a view of success right now

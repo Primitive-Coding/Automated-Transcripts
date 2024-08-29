@@ -1,0 +1,106 @@
+,start,start_ms,end,end_ms,file,volume,text
+0,00:00:00.083,83,00:00:00.583,583,chunk1.wav,6933,[sighs]
+1,00:00:01.168,1168,00:00:02.043,2043,chunk2.wav,7395,I have kids and I lie to them.
+2,00:00:04.962,4962,00:00:05.505,5505,chunk3.wav,6142,"I get high around 'em, too."
+3,00:00:06.131,6131,00:00:07.507,7507,chunk4.wav,5190,"People say you shouldn't do that, but they don't see it."
+4,00:00:11.094,11094,00:00:12.199,12199,chunk5.wav,7456,They say you shouldn't be intoxicated around your children.
+5,00:00:13.388,13388,00:00:14.159,14159,chunk6.wav,6774,"Well, I'm not. I'm high."
+6,00:00:15.932,15932,00:00:17.016,17016,chunk7.wav,7378,"I call it ""elevated."" It's a different thing."
+7,00:00:19.102,19102,00:00:20.061,20061,chunk8.wav,6740,"The people who have a problem with that,"
+8,00:00:21.104,21104,00:00:22.292,22292,chunk9.wav,5607,they don't understand what getting high is.
+9,00:00:23.565,23565,00:00:25.004,25004,chunk10.wav,5566,"Like, they think you're gonna be to your kid, like, ""Who are you?"""
+10,00:00:27.777,27777,00:00:28.715,28715,chunk11.wav,10750,What do you think?
+11,00:00:29.737,29737,00:00:31.218,31218,chunk12.wav,7236,What's the worst thing that can happen if I'm a little high around my kid?
+12,00:00:32.782,32782,00:00:33.324,33324,chunk13.wav,5235,"They're gonna get extra hugs,"
+13,00:00:33.950,33950,00:00:34.972,34972,chunk14.wav,8398,and daddy's going to be paranoid about objects.
+14,00:00:36.078,36078,00:00:36.599,36599,chunk15.wav,7893,"""Look out."
+15,00:00:37.204,37204,00:00:37.892,37892,chunk16.wav,10386,"Don't go there."""
+16,00:00:40.623,40623,00:00:41.728,41728,chunk17.wav,7600,"That's it. Plus, I have cool conversations."
+17,00:00:44.001,44001,00:00:44.689,44689,chunk18.wav,6014,"I have a six-year-old daughter, man."
+18,00:00:45.462,45462,00:00:47.693,47693,chunk19.wav,5285,"There's not a lot of 48-year-old man and 6-year-old girl have in common,"
+19,00:00:50.007,50007,00:00:50.779,50779,chunk20.wav,6476,other than the fact she's my daughter.
+20,00:00:51.634,51634,00:00:53.135,53135,chunk21.wav,7598,"And so, our conversations are normally pretty boring."
+21,00:00:54.721,54721,00:00:56.702,56702,chunk22.wav,5854,"But when I'm high, I'm like, ""You know, you call that thing your baby, your doll."
+22,00:00:58.766,58766,00:01:00.247,60247,chunk23.wav,6207,"You call it your baby, but you know it's not a baby, right?"""
+23,00:01:03.020,63020,00:01:04.084,64084,chunk24.wav,8578,"""Yeah, I know it's not a baby."""
+24,00:01:05.232,65232,00:01:06.191,66191,chunk25.wav,7744,"""Do you call it a baby because you're the youngest"
+25,00:01:07.234,67234,00:01:09.361,69361,chunk26.wav,7145,"and you like having someone who is responsible for you?"""
+26,00:01:11.571,71571,00:01:12.405,72405,chunk27.wav,4496,"""Maybe."""
+27,00:01:13.323,73323,00:01:14.511,74511,chunk28.wav,7017,"""Okay. That's cool. That's cool. Give me a hug. I love you."""
+28,00:01:16.784,76784,00:01:17.409,77409,chunk29.wav,9850,[kisses]
+29,00:01:20.080,80080,00:01:21.435,81435,chunk30.wav,6014,"It's weird, man. It's weird raising little people."
+30,00:01:23.791,83791,00:01:24.500,84500,chunk31.wav,6108,There's some things that I didn't expect.
+31,00:01:25.293,85293,00:01:26.586,86586,chunk32.wav,6523,One of the things I didn't expect is you have to lie to them.
+32,00:01:28.880,88880,00:01:29.776,89776,chunk33.wav,5469,"Like, you don't have to lie to them about a lot of things,"
+33,00:01:30.757,90757,00:01:31.883,91883,chunk34.wav,9141,but you have to lie to them about Santa Claus.
+34,00:01:33.093,93093,00:01:34.615,94615,chunk35.wav,6118,"It's just one of those things, man, 'cause it's like a community."
+35,00:01:36.221,96221,00:01:37.597,97597,chunk36.wav,7219,You have to think about what your kid's gonna tell other kids.
+36,00:01:39.056,99056,00:01:39.932,99932,chunk37.wav,6164,"Because when it comes to Santa Claus,"
+37,00:01:40.892,100892,00:01:41.747,101747,chunk38.wav,5084,you don't want your kid to be one of two things.
+38,00:01:42.685,102685,00:01:44.041,104041,chunk39.wav,5312,You don't want your kid to be the first kid
+39,00:01:45.480,105480,00:01:46.835,106835,chunk40.wav,5839,"that tells everyone that Santa Claus is bullshit,"
+40,00:01:48.275,108275,00:01:49.046,109046,chunk41.wav,6613,'cause that kid's an asshole.
+41,00:01:50.777,110777,00:01:51.694,111694,chunk42.wav,5727,But you don't want your kid to be the last kid
+42,00:01:52.695,112695,00:01:54.113,114113,chunk43.wav,6537,"that figures out that Santa Claus is bullshit,"
+43,00:01:55.615,115615,00:01:56.261,116261,chunk44.wav,6693,'cause that kid's a moron.
+44,00:01:56.991,116991,00:01:58.367,118367,chunk45.wav,9356,So you got... You got a little bit of...
+45,00:01:59.827,119827,00:02:01.058,121058,chunk46.wav,4600,"You're like, ""Oh, no."
+46,00:02:02.372,122372,00:02:03.685,123685,chunk47.wav,6714,"When do we do this? When do we do this?"""
+47,00:02:05.082,125082,00:02:06.333,126333,chunk48.wav,6715,And no one knows when to do it. You just let the kids figure it out.
+48,00:02:07.669,127669,00:02:08.920,128920,chunk49.wav,6873,"Then they're like, ""Dad, what the fuck?"" You're like, ""Aw..."
+49,00:02:10.255,130255,00:02:11.068,131068,chunk50.wav,6486,"Oh, I missed the boat. I missed the boat."""
+50,00:02:12.882,132882,00:02:14.175,134175,chunk51.wav,6327,Nobody knows when to do it. Nobody can be honest about it.
+51,00:02:15.552,135552,00:02:16.240,136240,chunk52.wav,2931,They have little meetings and shit.
+52,00:02:17.011,137011,00:02:18.554,138554,chunk53.wav,6075,"And I'm like, ""When do we tell 'em?"" This lady goes, ""When they're 11."""
+53,00:02:20.182,140182,00:02:21.057,141057,chunk54.wav,8354,They're gonna be fucking by then.
+54,00:02:24.936,144936,00:02:26.437,146437,chunk55.wav,9339,I told her it was funny. She didn't believe me.
+55,00:02:28.022,148022,00:02:29.127,149127,chunk56.wav,6372,"I'm like, ""Oh, I'm sorry. I'm off by a year."""
+56,00:02:31.318,151318,00:02:32.548,152548,chunk57.wav,7764,"That's not as funny, but it's..."
+57,00:02:33.861,153861,00:02:34.486,154486,chunk58.wav,5890,I didn't mean it.
+58,00:02:36.113,156113,00:02:37.594,157594,chunk59.wav,6666,But it's this thing. They want to keep the kids in the dark.
+59,00:02:39.159,159159,00:02:40.556,160556,chunk60.wav,6128,And they wanna pretend they're the only one that's teaching the kid.
+60,00:02:42.036,162036,00:02:42.578,162578,chunk61.wav,3528,This is a weird thing that people do.
+61,00:02:43.205,163205,00:02:44.372,164372,chunk62.wav,7126,"They're like, ""I teach my kids, man. I teach my kids."""
+62,00:02:45.623,165623,00:02:46.520,166520,chunk63.wav,4478,"""Eh... when you see 'em."""
+63,00:02:48.418,168418,00:02:49.940,169940,chunk64.wav,7025,"But unless you're some freak who homeschools your children in the forest,"
+64,00:02:51.546,171546,00:02:52.130,172130,chunk65.wav,5560,your kid's gonna go to school.
+65,00:02:52.797,172797,00:02:54.194,174194,chunk66.wav,5106,"They're gonna go to school, and they're gonna be in a class with 50 other kids."
+66,00:02:55.675,175675,00:02:57.093,177093,chunk67.wav,5579,"The teacher only makes 20 bucks a year, and she's thinking about dick."
+67,00:02:58.595,178595,00:02:59.158,179158,chunk68.wav,5958,That's all she's thinking about.
+68,00:02:59.804,179804,00:03:00.429,180429,chunk69.wav,7119,She's thinking about getting stuffed.
+69,00:03:01.138,181138,00:03:02.452,182452,chunk70.wav,6541,"She's a young, fertile woman who loves kids."
+70,00:03:03.850,183850,00:03:04.559,184559,chunk71.wav,7370,And she's writing on that chalkboard.
+71,00:03:05.352,185352,00:03:06.603,186603,chunk72.wav,5377,And the kids all huddle up and share information.
+72,00:03:07.937,187937,00:03:09.167,189167,chunk73.wav,6185,"Like, ""Yeah, what did your dad tell you? Your dad tell you that, yeah?"
+73,00:03:10.482,190482,00:03:12.129,192129,chunk74.wav,12264,"My dad says Santa Claus is fucking bullshit, okay?"
+74,00:03:13.860,193860,00:03:14.423,194423,chunk75.wav,5352,You ever go near a chimney?
+75,00:03:15.069,195069,00:03:16.007,196007,chunk76.wav,5982,It's that big. What the fuck?
+76,00:03:17.947,197947,00:03:18.635,198635,chunk77.wav,8830,Teacher's coming. Play with blocks.
+77,00:03:19.407,199407,00:03:20.095,200095,chunk78.wav,7532,Act stupid.
+78,00:03:20.867,200867,00:03:21.722,201722,chunk79.wav,11098,"Uh, how does this work?"""
+79,00:03:22.660,202660,00:03:23.765,203765,chunk80.wav,7105,They play dumb. They play dumb!
+80,00:03:26.498,206498,00:03:27.457,207457,chunk81.wav,7023,"They're like little prisoners, trying to figure their way out."
+81,00:03:28.500,208500,00:03:29.980,209980,chunk82.wav,6860,They make little papier-mâché heads and pretend they're napping.
+82,00:03:34.672,214672,00:03:35.694,215694,chunk83.wav,8608,They're little humans.
+83,00:03:36.799,216799,00:03:37.341,217341,chunk84.wav,6617,They wanna run shit.
+84,00:03:37.967,217967,00:03:39.114,219114,chunk85.wav,6480,"""Who is these people telling us what to do?"
+85,00:03:40.345,220345,00:03:41.304,221304,chunk86.wav,6509,"Are they being straight with us, man?"
+86,00:03:42.347,222347,00:03:43.222,223222,chunk87.wav,6685,"What the fuck is going on?"""
+87,00:03:46.017,226017,00:03:47.497,227497,chunk88.wav,10855,I knew the day my daughter knew that Santa Claus is bullshit.
+88,00:03:49.937,229937,00:03:51.230,231230,chunk89.wav,5570,"She came home, stared me down."
+89,00:03:54.526,234526,00:03:55.714,235714,chunk90.wav,12631,"She was, like, mad-dogging me."
+90,00:03:56.986,236986,00:03:58.175,238175,chunk91.wav,7220,"She took her book bag, and just goes... [scoffs]"
+91,00:04:01.783,241783,00:04:02.554,242554,chunk92.wav,5876,"Walked right up to the chimney,"
+92,00:04:03.410,243410,00:04:04.035,244035,chunk93.wav,5588,looking at me.
+93,00:04:09.999,249999,00:04:10.937,250937,chunk94.wav,9545,"""How the fuck?"""
+94,00:04:20.718,260718,00:04:21.886,261886,chunk95.wav,6990,"""Dad, have you ever met Santa Claus?"""
+95,00:04:24.389,264389,00:04:25.243,265243,chunk96.wav,5817,"""No, honey, I've never met him."""
+96,00:04:27.224,267224,00:04:28.100,268100,chunk97.wav,6455,"""But you let him in the house?"""
+97,00:04:35.066,275066,00:04:35.566,275566,chunk98.wav,7049,And there's this moment...
+98,00:04:36.150,276150,00:04:37.360,277360,chunk99.wav,8104,It was a moment where a seven-year-old has you at checkmate.
+99,00:04:38.653,278653,00:04:39.737,279737,chunk100.wav,6526,"You're like, ""Oh, shit."""
+100,00:04:43.240,283240,00:04:44.533,284533,chunk101.wav,7302,I don't know whether to high-five her or to keep lying.
+101,00:04:46.869,286869,00:04:48.287,288287,chunk102.wav,5456,"You wanna go, ""Yeah, you got me. You got me. You got me. That's bullshit."
+102,00:04:49.789,289789,00:04:50.998,290998,chunk103.wav,6909,"No, the big bang is real, but this is bullshit."""
+103,00:04:54.126,294126,00:04:55.002,295002,chunk104.wav,4588,The big bang sounds even less real.
+104,00:04:55.962,295962,00:04:56.149,296149,chunk105.wav,8955,"The problem is, you have to be consistent."
